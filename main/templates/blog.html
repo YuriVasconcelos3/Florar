@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
+    <link rel="shortcut icon" href="{% static 'imagem/logo.png'%}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
+
+    <script type="text/javascript" scr="{% static 'jquery.min.js' %}"></script>
+
+    <script type="text/javascript" scr="{% static 'bs4/bootstrap.min.js'%}"></script>
+</head>
+<body>
+  <div class="dentrodoblog">
+    <div class="container py-1">
+      <div class="row">
+        <div class="col-12">
+          <div class="rowblog">
+            {% for post in post_list %}
+            <div class="postagem">
+              <div class="card">
+                <div class="card-body">
+                  <img src="{{ post.image.url }}" height="300px" width="300px">
+                  <h5 class="card-title2"> {{ post.title|slice:":20" }}... </h5>
+                  <div class="ajudablog">
+                    <p class="card-text">{{ post.content|truncatewords:10|safe }}</p>
+                  </div>
+                </div>
+                <a href="{% url 'post_detail' post.slug %}" class="button2"> LER MAIS </a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12">
+          <a href="/index/" class="fixed-bottom-left">VOLTAR PARA O INÍCIO</a>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</body>
+
+
+
+
+
