@@ -21,7 +21,7 @@ SECRET_KEY = 'django-insecure-1yp_*vsc*m94ru71&jxlf=c*xrojep&+-f!alb(mzpmrr3dc+c
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['20.201.28.151']
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
@@ -98,9 +98,9 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
