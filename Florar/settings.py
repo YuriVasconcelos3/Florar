@@ -21,7 +21,7 @@ SECRET_KEY = 'django-insecure-1yp_*vsc*m94ru71&jxlf=c*xrojep&+-f!alb(mzpmrr3dc+c
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.104']
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
