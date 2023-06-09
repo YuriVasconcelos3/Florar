@@ -1275,7 +1275,7 @@ nav {
     
 }
 
-@media (max-width: 450px){
+@media (max-width: 500px){
     .algo{
         margin-top: -2vh;
     }
