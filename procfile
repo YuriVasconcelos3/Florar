@@ -1,1 +1,1 @@
-web: gunicorn florar.wsgi -log--file -
+web: gunicorn Florar.wsgi -log--file -
