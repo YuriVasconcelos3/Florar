@@ -4,7 +4,7 @@ body {
 
 .dentrodoblog {
     width: 100%;
-    background-image: url(../imagem/Dentrodoblog.jpg);
+    background-image: url("../imagem/Dentrodoblog.997daa68b501.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -271,7 +271,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../imagem/resultados.jpg);
+    background-image: url("../imagem/resultados.3133b4254f00.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -283,7 +283,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../imagem/blog.jpg);
+    background-image: url("../imagem/blog.d4c1a9beb1e5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -295,7 +295,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../imagem/envios.jpg);
+    background-image: url("../imagem/envios.ab6e9dc6ddcb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -347,7 +347,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-image: url(../imagem/quem.jpg);
+    background-image: url("../imagem/quem.0e85b19426e0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -360,7 +360,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../imagem/testeee.jpg);
+    background-image: url("../imagem/testeee.d804a0ca044d.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -771,7 +771,7 @@ nav {
     top: -310vh;
     transition: 350ms;
     border-radius: 4px;
-    background-image: url(../imagem/subservicos.jpg);
+    background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -792,7 +792,7 @@ nav {
     top: -310vh;
     transition: 350ms;
     border-radius: 4px;
-    background-image: url(../imagem/subservicos.jpg);
+    background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -813,7 +813,7 @@ nav {
     z-index: 2;
     top: -310vh;
     transition: 350ms;
-    background-image: url(../imagem/subservicos.jpg);
+    background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1125,7 +1125,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url(../imagem/nossagentee2.jpg);
+        background-image: url("../imagem/nossagentee2.6112fa7a04ed.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1238,7 +1238,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/servicoscel2.jpg);
+        background-image: url("../imagem/servicoscel2.02ea063caf87.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1276,7 +1276,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/results.jpg);
+        background-image: url("../imagem/results.342d38ec0187.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1310,7 +1310,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url(../imagem/blog.jpg);
+        background-image: url("../imagem/blog.d4c1a9beb1e5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1322,7 +1322,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/faleconosco.jpg);
+        background-image: url("../imagem/faleconosco.85bc64361753.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1379,7 +1379,7 @@ nav {
         top: -310vh;
         transition: 100ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicosxx.jpg);
+        background-image: url("../imagem/subservicosxx.39d6494b8187.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1399,7 +1399,7 @@ nav {
         top: -310vh;
         transition: 350ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicos.jpg);
+        background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1419,7 +1419,7 @@ nav {
         z-index: 2;
         top: -310vh;
         transition: 350ms;
-        background-image: url(../imagem/subservicos.jpg);
+        background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1585,7 +1585,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url(../imagem/quemsomos4.jpg);
+        background-image: url("../imagem/quemsomos4.c0cf772f6368.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1690,7 +1690,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/servicoss3.jpg);
+        background-image: url("../imagem/servicoss3.d0c6d806b43b.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1704,7 +1704,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/resultados2.jpg);
+        background-image: url("../imagem/resultados2.1e93622f42fa.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1717,7 +1717,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url(../imagem/blog.jpg);
+        background-image: url("../imagem/blog.d4c1a9beb1e5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1729,7 +1729,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/envios.jpg);
+        background-image: url("../imagem/envios.ab6e9dc6ddcb.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1771,7 +1771,7 @@ nav {
         top: -310vh;
         transition: 100ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicos4.jpg);
+        background-image: url("../imagem/subservicos4.b92e2a8e7e29.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1791,7 +1791,7 @@ nav {
         top: -310vh;
         transition: 350ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicos4.jpg);
+        background-image: url("../imagem/subservicos4.b92e2a8e7e29.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1811,7 +1811,7 @@ nav {
         z-index: 2;
         top: -310vh;
         transition: 350ms;
-        background-image: url(../imagem/subservicos4.jpg);
+        background-image: url("../imagem/subservicos4.b92e2a8e7e29.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -2024,7 +2024,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url(../imagem/nossagentecelldeitado.jpg);
+        background-image: url("../imagem/nossagentecelldeitado.60d065036d34.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;

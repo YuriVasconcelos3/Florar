@@ -1275,12 +1275,12 @@ nav {
     
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
     .algo{
         margin-top: -2vh;
     }
     .slider-frame{
-        width: 100%;
+        width: 215vw;
         overflow: hidden;
     }
 
@@ -1293,16 +1293,16 @@ nav {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        width: 100%;
+        width: 215vw;
         overflow: hidden;
-        height: 800px;
+        height: 90vh;
     }
 
     .texto33{
         margin-top: -0.7vh;
     }
     .div11 {
-        width: 49%;
+        max-width: 105.35vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1314,7 +1314,7 @@ nav {
 
     .texto1 {
         color: white;
-        font-size: 22px;
+        font-size: 1.5em;
         margin-right: 10vw;
         margin-top: 15vh;
         width: 90vw;
@@ -1324,7 +1324,7 @@ nav {
     
     .texto1a {
         color: white;
-        font-size: 22px;
+        font-size: 1.5em;
         margin-right: 10vw;
         width: 90vw;
         text-indent: 4vw;
@@ -1396,7 +1396,7 @@ nav {
         margin-right: -10vw;
     }
     .div3 {
-        width: 100%;
+        width: 215vw;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -1434,7 +1434,7 @@ nav {
     }
     
     .div1 {
-        width: 100%;
+        width: 215vw;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -1468,7 +1468,7 @@ nav {
         font-family: 'GlacialIndifferenceRegular';
     }
     .blog {
-        width: 100%;
+        width: 215vw;
         height: 800px;
         display: flex;
         justify-content: center;
@@ -1480,7 +1480,7 @@ nav {
         background-position: center center;
     }
     .envios {
-        width: 100%;
+        width: 215vw;
         height: 730px;
         display: flex;
         flex-direction: column;
@@ -1492,7 +1492,7 @@ nav {
         background-position: center center;
     }
     #footer {
-        width: 100%;
+        width: 215vw;
         position: relative;
         bottom: 0;
         background-color: #18745B;
@@ -1534,11 +1534,11 @@ nav {
         outline: none;
     }
     .bg-modal {
-        width: 90%;
+        width: 193.5vw;
         height: 65vh;
         position: fixed;
-        margin-top: 50%;
-        margin-left: 65%;
+        margin-top: 60vh;
+        margin-left: 140vw;
         z-index: 2;
         top: -310vh;
         transition: 100ms;
@@ -1554,11 +1554,11 @@ nav {
         justify-content: center;
     }
     .bg-modal2 {
-        width: 90%;
+        width: 193.5vw;
         height: 65vh;
         position: fixed;
-        margin-top: 50%;
-        margin-left: 0%;
+        margin-top: 60vh;
+        margin-left: 0vw;
         z-index: 2;
         top: -310vh;
         transition: 350ms;
@@ -1575,11 +1575,11 @@ nav {
     }
     
     .bg-modal3 {
-        width: 90%;
+        width: 193.5vw;
         height: 65vh;
         position: fixed;
-        margin-top: 50%;
-        margin-right: 20vw;
+        margin-top: 60vh;
+        margin-right: 90vw;
         z-index: 2;
         top: -310vh;
         transition: 350ms;
@@ -1739,7 +1739,7 @@ nav {
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
     .slider-frame{
-        width: 100%;
+        width: 200vw;
         overflow: hidden;
     }
 
@@ -1752,7 +1752,7 @@ nav {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        width: 100%;
+        width: 200vw;
         overflow: hidden;
         height: 900px;
     }
@@ -1847,7 +1847,7 @@ nav {
         margin-right: 30vw;
     }
     .div3 {
-        width: 100%;
+        width: 200vw;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -1861,7 +1861,7 @@ nav {
     }
     
     .div1 {
-        width: 100%;
+        width: 200vw;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -1874,7 +1874,7 @@ nav {
         object-fit: cover;
     }
     .blog {
-        width: 100%;
+        width: 200vw;
         height: 800px;
         display: flex;
         justify-content: center;
@@ -1898,7 +1898,7 @@ nav {
         background-position: center center;
     }
     #footer {
-        width: 100%;
+        width: 200vw;
         position: relative;
         bottom: 0;
         background-color: #18745B;
@@ -2174,8 +2174,8 @@ nav {
         margin-top: 0.5vh;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 920px),
-       only screen and (min-width: 768px) and (max-width: 920px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1000px),
+       only screen and (min-width: 768px) and (max-width: 1000px) and (orientation: landscape) {
     .div3 {
         height: 240vh;
     }
@@ -2380,8 +2380,8 @@ nav {
     }
 
 }
-@media only screen and (min-width: 921px) and (max-width: 1200px),
-       only screen and (min-width: 921px) and (max-width: 1200px) and (orientation: landscape) {
+@media only screen and (min-width: 1100px) and (max-width: 1200px),
+       only screen and (min-width: 1100px) and (max-width: 1200px) and (orientation: landscape) {
         .navigation-auto {
             margin-left: -9vw;
         }
@@ -2394,5 +2394,157 @@ nav {
         .div45{
             margin-top: 20vh;
         }
-       }
-  
+}
+
+@media only screen and (min-width: 500px) and (max-width: 550px){
+    .div11{
+        margin-bottom: 18vh;
+    }
+    .texto1, .texto1a{
+        font-size: 1.8em ;
+    }
+    .texto44{
+        margin-bottom: 7vh;
+    }
+    .bg-modal{
+        margin-left: 130vw;
+    }
+    .bg-modal3{
+        margin-right: 82vw;
+    }
+    .opcao{
+        width: 58vw;
+        height: 28vh;
+    }
+    .titulomodal {
+        width: 58vw;
+    }
+    .rowblog img{
+        width: 50vw;
+        height: 25vh;
+    }
+    .rowblog2 img{
+        width: 48.33vw;
+        height: 25vh;
+    }
+    .ajudablog{
+        max-width: 45vw;
+    }
+    .card-body{
+        max-height: 39vh;
+    }
+    .navbar.test .navbar-nav .nav-link{
+        font-size: 3em;
+    }
+
+    .ff{
+        margin-top: 16vh;
+    }
+    .redesSociais a{
+        width: 13vw;
+        height: 6vh;
+    }
+    .fxf{
+        margin-top: 4vh;
+    }
+    .xx{
+        font-size: 2em;
+        margin-top: 4vh;
+    }
+    .imagemblog{
+        margin-left: -12vw;
+    }
+    .button2x{
+        width: 30vw;
+        height: 5vh;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-title, .card-title2{
+        font-size: 1.5em;
+    }
+    .card-text{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 400px){
+    
+    .slider-frame{
+        height: 100vh;
+    }
+    .slider-frame .fotos{
+        height: 100vh;
+    }
+    .slider-frame .fotos img {
+        height: 100vh;
+    }
+    .div111{
+        height: 120vh ;
+    }
+    .div11{
+        margin-bottom: 50vh;
+    }
+    body {
+        zoom: 50%; /* Defina o valor de zoom desejado, como 80% */
+    }
+    .texto44{
+        font-size: 3em;
+        width: 150vw;
+        margin-bottom: 30vh;
+        margin-left: -50vw;
+    }
+    .div3{
+        height: 100vh;
+    }
+    .opcao{
+        width: 60vw;
+        height: 40vh;
+    }
+    .texto{
+        font-size: 1.5em;
+    }
+    .titulomodal{
+        width: 60vw;
+        height: 15vh;
+    }
+    #footer{
+        height: 50vh;
+    }
+    .card-body{
+        height: 70vh;
+    }
+    .blog{
+        height: 100vh;
+    }
+    .rowblog2 img{
+        width: 45vw ;
+        height: 25vh;
+    }
+    .button2{
+        margin-top: 10vh;
+        width: 30vw;
+    }
+    .card-title{
+        width: 45vw;
+    }
+    .ajudablog{
+        font-size: 0.9em;
+        width: 45vw;
+    }
+    .div1{
+        width: 220vw;      
+    }
+    .hist h10{
+        font-size: 5em;
+    }
+    .hist p{
+        font-size: 1.5em;
+        width: 65vw;
+    }
+    .envios, .div1{
+        height: 100vh;
+    }
+}

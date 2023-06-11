@@ -4,7 +4,7 @@ body {
 
 .dentrodoblog {
     width: 100%;
-    background-image: url(../imagem/Dentrodoblog.jpg);
+    background-image: url("../imagem/Dentrodoblog.997daa68b501.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -271,7 +271,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../imagem/resultados.jpg);
+    background-image: url("../imagem/resultados.3133b4254f00.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -283,7 +283,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../imagem/blog.jpg);
+    background-image: url("../imagem/blog.d4c1a9beb1e5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -295,7 +295,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../imagem/envios.jpg);
+    background-image: url("../imagem/envios.ab6e9dc6ddcb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -347,7 +347,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-image: url(../imagem/quem.jpg);
+    background-image: url("../imagem/quem.0e85b19426e0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -360,7 +360,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../imagem/testeee.jpg);
+    background-image: url("../imagem/testeee.d804a0ca044d.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -771,7 +771,7 @@ nav {
     top: -310vh;
     transition: 350ms;
     border-radius: 4px;
-    background-image: url(../imagem/subservicos.jpg);
+    background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -792,7 +792,7 @@ nav {
     top: -310vh;
     transition: 350ms;
     border-radius: 4px;
-    background-image: url(../imagem/subservicos.jpg);
+    background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -813,7 +813,7 @@ nav {
     z-index: 2;
     top: -310vh;
     transition: 350ms;
-    background-image: url(../imagem/subservicos.jpg);
+    background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1125,7 +1125,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url(../imagem/nossagentee2.jpg);
+        background-image: url("../imagem/nossagentee2.6112fa7a04ed.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1238,7 +1238,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/servicoscel2.jpg);
+        background-image: url("../imagem/servicoscel2.02ea063caf87.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1276,7 +1276,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/results.jpg);
+        background-image: url("../imagem/results.342d38ec0187.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1310,7 +1310,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url(../imagem/blog.jpg);
+        background-image: url("../imagem/blog.d4c1a9beb1e5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1322,7 +1322,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/faleconosco.jpg);
+        background-image: url("../imagem/faleconosco.85bc64361753.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1379,7 +1379,7 @@ nav {
         top: -310vh;
         transition: 100ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicosxx.jpg);
+        background-image: url("../imagem/subservicosxx.39d6494b8187.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1399,7 +1399,7 @@ nav {
         top: -310vh;
         transition: 350ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicos.jpg);
+        background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1419,7 +1419,7 @@ nav {
         z-index: 2;
         top: -310vh;
         transition: 350ms;
-        background-image: url(../imagem/subservicos.jpg);
+        background-image: url("../imagem/subservicos.44c42ca9e5db.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1573,6 +1573,169 @@ nav {
 }
 
 
+@media (max-width: 768px) {
+    .texto4,
+    .texto4b {
+        font-size: 45px;
+    }
+    .texto4b{
+        margin-bottom: 10vh;
+    }
+
+    .textott {
+        max-width: none;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .manual-btn,
+    .navigation-auto div {
+        margin-right: 10px;
+    }
+
+    .navigation-auto {
+        width: 100%;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .texto1,
+    .texto1a {
+        width: 80%;
+        margin-left: 0;
+        text-indent: 0;
+    }
+    .test2 {
+        margin-left: 0;
+    }
+
+    .envios input,
+    .envios textarea {
+        width: 100%;
+    }
+
+    .formulario {
+        margin-right: 0;
+    }
+
+    .div11,
+    .div45 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .manual-navigation {
+        width: 100%;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .card-textt {
+        margin-left: 200px;
+        width: 100%;
+    }
+    .paraotexto {
+        font-size: 30px;
+        margin-left: -25.5vw;
+        width: 170%;
+    }
+    .button2{
+        margin-bottom: 3vh;
+
+    }
+    .button2b {
+        display: flex;
+        margin-top: 25vh;
+        font-size: 20pt;
+        font-weight: 500;
+        color: #41A68E;
+        background-color: #f8f8f8;
+        border: 2px solid #41A68E;
+        border-radius: 4px;
+        padding: 0.5% 1% 0.5% 1%;
+        cursor: pointer;
+        width: auto;
+        height: auto;
+        text-align-last: center;
+        font-family: 'GlacialIndifferenceRegular';
+        outline: none;
+    }
+    .button22 {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding: 8px 15px;
+    }
+    .navbar.test {
+        background-color: transparent;
+    } 
+    .navbar.test .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='6' x2='27' y2='6'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='14' x2='27' y2='14'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='22' x2='27' y2='22'/%3E%3C/svg%3E");
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 90px;
+        transform: scale(1.5);
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-20%);
+    }
+    .navbar.test .navbar-toggler.open {
+        transform: scale(1.5) rotate(90deg);
+    }
+    .navbar.test .navbar-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 400vh;
+        width: 50vw;
+        background-color:#41A68E; /* Cor de fundo personalizada */
+        transition: right 0.3s;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        margin-left: -20vw ;
+        font-size: 50px; /* Tamanho da fonte personalizado */
+        padding: 10px;
+        text-decoration: none;
+        width: 10vw;
+    }
+    .ajudablog{
+        max-width: 40vw;
+    }
+
+    .dentrodoblog {
+        width: 100%;
+        height: 200vh;
+        background-image: url("../imagem/blog2.b1b6ab657e76.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .imagemblog {
+        margin-left: -25.5vw;
+    }
+    .rowblog{
+        margin-right: 5vw;
+    }
+    
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
     .slider-frame{
@@ -1585,7 +1748,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url(../imagem/quemsomos4.jpg);
+        background-image: url("../imagem/quemsomos4.c0cf772f6368.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1690,7 +1853,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/servicoss3.jpg);
+        background-image: url("../imagem/servicoss3.d0c6d806b43b.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1704,7 +1867,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/resultados2.jpg);
+        background-image: url("../imagem/resultados2.1e93622f42fa.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1717,7 +1880,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url(../imagem/blog.jpg);
+        background-image: url("../imagem/blog.d4c1a9beb1e5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1729,7 +1892,7 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../imagem/envios.jpg);
+        background-image: url("../imagem/envios.ab6e9dc6ddcb.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1771,7 +1934,7 @@ nav {
         top: -310vh;
         transition: 100ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicos4.jpg);
+        background-image: url("../imagem/subservicos4.b92e2a8e7e29.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1791,7 +1954,7 @@ nav {
         top: -310vh;
         transition: 350ms;
         border-radius: 4px;
-        background-image: url(../imagem/subservicos4.jpg);
+        background-image: url("../imagem/subservicos4.b92e2a8e7e29.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1811,7 +1974,7 @@ nav {
         z-index: 2;
         top: -310vh;
         transition: 350ms;
-        background-image: url(../imagem/subservicos4.jpg);
+        background-image: url("../imagem/subservicos4.b92e2a8e7e29.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -2024,7 +2187,7 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url(../imagem/nossagentecelldeitado.jpg);
+        background-image: url("../imagem/nossagentecelldeitado.60d065036d34.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
