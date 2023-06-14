@@ -1269,6 +1269,9 @@ nav {
     .rowblog{
         margin-right: 5vw;
     }
+    .div111{
+        height: 100vh;
+    }
     
 }
 
@@ -1736,7 +1739,7 @@ nav {
     
 }
 
-@media screen and (min-width: 551px) and (max-width: 1024px) {
+@media screen and (min-width: 650px) and (max-width: 1024px) {
 
     .slider-frame{
         width: 200vw;
@@ -2174,7 +2177,7 @@ nav {
         margin-top: 0.5vh;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1000px),
+@media only screen and (min-width: 768px) and (max-width: 1000px) and (orientation: landscape),
        only screen and (min-width: 768px) and (max-width: 1000px) and (orientation: landscape) {
     .div3 {
         height: 240vh;
@@ -2697,9 +2700,86 @@ nav {
     margin-top: 60vh;
    }
 }
-@media screen and (min-width: 530px) and (max-width: 600px) {
+@media screen and (min-width: 531px) and (max-width: 600px) {
     .navigation-auto, .manual-navigation{
         margin-top: 50vh;
+        margin-left: -35vw;
+    }
+    .div111{
+        height: 120vh;
+    }
+    .rowwblog{
+        margin-left: 89vw;
+    }
+    .card-titlee{
+        margin-left: -89vw;
+    }
+    .paraotexto{
+        margin-left: 58vw;
+    }
+    .button2{
+        margin-top: 20vh;
+    }
+    .ajudablog{
+        width: 40vw;
+    }
+    .texto4b{
+        margin-top: -60vh;
+        margin-bottom: 15vh;
+    }
+    .button2b{
+        margin-top: 40vh;
+    }
+    .texto44{
+        margin-top: -70vh;
+    }
+    .texto1, .texto1a{
+        font-size: 1.7em;
+    }
+    .bg-modal, .bg-modal2, .bg-modal3{
+        height: 100vh;
+    }
+    .opcaooo{
+        width: 300px ;
+        height: 300px ;
+        margin-right: 10vw;
+    }
+    .textott{
+        font-size: 1.7em;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+    }
+    .texto33{
+        margin-left: -12vw;
+        margin-top: 5vh;
+    }
+    .botoesservico{
+        margin-bottom: 10vh;
+    }
+    .sliderrr, .sliderr, .sliderr3 {
+        height: 80vh;
+    }
+    .opcaooo{
+        width: 380px ;
+        height: 380px ;
+        margin-left: 15vw;
+    }
+    .opcao{
+        width: 280px;
+        height: 280px;
+    }
+    .titulomodal{
+        width: 280px;
+    }
+    .div1{
+        height: 150vh;
+    }
+    .hist h10{
+        font-size: 8em;
+    }
+    .hist p{
+        font-size: 2.2em;
     }
 }
 @media screen and (min-width: 350px) and (max-width: 380px) {
@@ -2807,6 +2887,12 @@ nav {
         height: 100vh;
         width: 300vw;
     }
+    .bg-modal{
+        margin-left: 205vw;
+    }
+    .bg-modal3{
+        margin-right: 155vw;
+    }
     .opcaooo{
         width: 300px ;
         height: 300px ;
@@ -2844,5 +2930,79 @@ nav {
         font-size: 1.6em;
         max-width: 120vw;
         height: 15vh;
+    }
+    .texto44{
+        margin-top: -45vh;
+    }
+    .paraotexto{
+        width: 200vw;
+        margin-left: 65vw;
+    }
+    .rowwblog{
+        margin-left: 75vw;
+    }
+    .card-titlee{
+        font-size: 3em;
+        margin-left: -60vw;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 360px) {
+    .div11{
+        margin-left: 12vw;
+        margin-top: 70vh;
+    }
+    .texto1, .texto1a{
+        width: 120vw;
+    }
+    #footer{
+        height: 45vh;
+    }
+    .div1{
+        height: 130vh;
+    }
+    .blog{
+        height: 130vh;
+    }
+    .button2b{
+        margin-top: 40vh;
+    }
+    .texto4b{
+        margin-bottom: 25vh;
+    }
+    .bg-modal, .bg-modal2, .bg-modal3{
+        margin-top: 100vh;
+    }
+    .bg-modal{
+        margin-left: 180vw;
+    }
+    .bg-modal3{
+        margin-right: 140vw ;
+    }
+    .rowwblog{
+        margin-left: 95vw;
+    }
+    .card-titlee{
+        margin-left: -95vw;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 800px){
+    .navigation-auto, .manual-navigation{
+        margin-top: 50vh;
+    }
+    .div111, .blog{
+        height: 100vh;
+    }
+    .button2{
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px){
+    .div111{
+        height: 100vh;
+    }
+    .div11{
+        width: 150vw;
     }
 }
