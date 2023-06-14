@@ -2835,42 +2835,7 @@ nav {
 
 
 
-@media screen and (min-width: 370px) and (max-width: 375px) {
-    .div11{
-        width: 110vw;
-        height: 120vh;
-        margin-top: 30vh;
-        margin-right: 3vw;
-    }
-    .slider{
-        width: 110vw;
-        height: 50vh;
-    }
-    .slide img{
-        width: 110vw;
-        height: 50vh;
-    }
-    #footer{
-        height: 48vh;
-    }
-    .div45{
-        margin-left: 40vw;
-        margin-right: -10vw;
-    }
-    .texto44{
-        margin-left: -140vw;
-    }
-    body{
-        zoom:32% ;
-    }
-    #footer{
-        height: 50vh;
-    }
-    .opcao{
-        width: 300px;
-        height: 300px;
-    }
-}
+
 
 @media screen and (max-width: 300px) {
     .div11{
