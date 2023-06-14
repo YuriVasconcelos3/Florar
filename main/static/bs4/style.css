@@ -3008,7 +3008,7 @@ nav {
 }
 
 
-@media screen and (min-width: 370px) and (max-width: 380px) {
+@media screen and (min-width: 300px) and (max-width: 330px) {
     #footer{
         height: 300vh;
     }
