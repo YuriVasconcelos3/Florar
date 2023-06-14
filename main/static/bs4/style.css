@@ -3,7 +3,7 @@ body {
 }
 
 .dentrodoblog {
-    width: 100%;
+    width: 100vw;
     background-image: url(../imagem/Dentrodoblog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,10 +155,6 @@ body {
     align-items: start;
 }
 
-.card-bodyy {
-    width: 100%;
-}
-
 .card-text {
     color: #41A68E;
     overflow: hidden;
@@ -187,11 +183,11 @@ body {
 }
 
 .paraotexto {
-    width: 45%;
+    width: 45vw;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-left: 27%;
+    margin-left: 20vw;
 }
 
 .redesSociais a {
@@ -252,7 +248,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    margin-left: -20vw;
+    margin-left: -18vw;
 }
 
 .agora {
@@ -384,7 +380,7 @@ body {
 }
 
 .slider-frame {
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -721,7 +717,7 @@ body {
 }
 
 nav ul {
-    width: 100%;
+    width: 100vw;
     display: inline-flex;
     justify-content: center;
     text-align: center;
@@ -1070,7 +1066,7 @@ nav {
 }
 
 .div112 {
-    width: 100%;
+    width: 100vw;
     height: 30vw;
     display: flex;
     flex-direction: column;
@@ -1080,7 +1076,7 @@ nav {
 }
 
 .div1122 {
-    width: 100%;
+    width: 100vw;
     height: 30vw;
     display: flex;
     flex-direction: column;
@@ -1090,7 +1086,7 @@ nav {
 }
 
 .div1123 {
-    width: 100%;
+    width: 100vw;
     height: 30vw;
     display: flex;
     flex-direction: column;
@@ -1132,7 +1128,7 @@ nav {
     }
 
     .navigation-auto {
-        width: 100%;
+        width: 100vw;
         justify-content: center;
         margin-top: 0;
     }
@@ -1149,7 +1145,7 @@ nav {
 
     .envios input,
     .envios textarea {
-        width: 100%;
+        width: 100vw;
     }
 
     .formulario {
@@ -1259,8 +1255,9 @@ nav {
     }
 
     .dentrodoblog {
+        position: fixed;
         width: 100%;
-        height: 200vh;
+        height: 250vh;
         background-image: url(../imagem/blog2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1280,7 +1277,7 @@ nav {
         margin-top: -2vh;
     }
     .slider-frame{
-        width: 215vw;
+        width: 250vw;
         overflow: hidden;
     }
 
@@ -1293,9 +1290,9 @@ nav {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        width: 215vw;
+        width: 250vw;
         overflow: hidden;
-        height: 90vh;
+        height: 100vh;
     }
 
     .texto33{
@@ -1396,7 +1393,7 @@ nav {
         margin-right: -10vw;
     }
     .div3 {
-        width: 215vw;
+        width: 250vw;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -1434,7 +1431,7 @@ nav {
     }
     
     .div1 {
-        width: 215vw;
+        width: 250vw;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -1468,7 +1465,7 @@ nav {
         font-family: 'GlacialIndifferenceRegular';
     }
     .blog {
-        width: 215vw;
+        width: 250vw;
         height: 800px;
         display: flex;
         justify-content: center;
@@ -1480,7 +1477,7 @@ nav {
         background-position: center center;
     }
     .envios {
-        width: 215vw;
+        width: 250vw;
         height: 730px;
         display: flex;
         flex-direction: column;
@@ -1492,7 +1489,7 @@ nav {
         background-position: center center;
     }
     #footer {
-        width: 215vw;
+        width: 250vw;
         position: relative;
         bottom: 0;
         background-color: #18745B;
@@ -1508,7 +1505,7 @@ nav {
         font-size: 60px;
         position: absolute;
         margin-left: -120vw ;
-        margin-top: -45vh;
+        margin-top: -50vh;
     }
     .escolha{
         margin-top: -5vh;
@@ -1520,7 +1517,7 @@ nav {
     .envios input {
         margin-top: 1px;
         margin-left: -60vw;
-        width: 110vw;
+        width: 120vw;
         height: 55px;
         font-family: 'GlacialIndifferenceRegular';
         outline: none;
@@ -1529,12 +1526,15 @@ nav {
         margin-top: 1px;
         margin-left: -60vw;
         height: 170px;
-        width: 110vw;
+        width: 120vw;
         font-family: 'GlacialIndifferenceRegular';
         outline: none;
     }
+    .formulario{
+        margin-left: -30vw;
+    }
     .bg-modal {
-        width: 193.5vw;
+        width: 225vw;
         height: 65vh;
         position: fixed;
         margin-top: 60vh;
@@ -1554,7 +1554,7 @@ nav {
         justify-content: center;
     }
     .bg-modal2 {
-        width: 193.5vw;
+        width: 225vw;
         height: 65vh;
         position: fixed;
         margin-top: 60vh;
@@ -1575,7 +1575,7 @@ nav {
     }
     
     .bg-modal3 {
-        width: 193.5vw;
+        width: 225vw;
         height: 65vh;
         position: fixed;
         margin-top: 60vh;
@@ -1639,15 +1639,15 @@ nav {
         margin-bottom: -5vh;
     }
     .ajudablog{
-        max-width: 48vw;
-        font-size: 1em;
+        max-width: 55vw;
+        font-size: 1.1em;
     }
     .paraotexto {
         width: 130vw;
         justify-content: center;
         align-items: center;
         text-align: justify;
-        margin-left: 20%;
+        margin-left: 55vw;
     }
     .rowwblog {
         display: flex;
@@ -1655,11 +1655,11 @@ nav {
         justify-content: center;
         align-items: center;
         margin-bottom: 40px;
-        margin-left: 27%;
+        margin-left: 72vw;
     }
     .card-titlee {
         margin-top: 5vh;
-        margin-left: -35%;
+        margin-left: -72vw;
         font-size: 2.5em;
         color: #41A68E;
         justify-content: center;
@@ -1676,8 +1676,8 @@ nav {
         margin-left: -1vw;
     }
     .rowblog2 img{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
     .rowblog img{
         width: 250px;
@@ -1690,12 +1690,12 @@ nav {
     }
 
     body {
-        zoom: 46.5%; /* Defina o valor de zoom desejado, como 80% */
+        zoom: 40%; /* Defina o valor de zoom desejado, como 80% */
     }
     .postagem {
         margin-top: 150px;
-        margin-left: -13.5vw;
-        margin-right: -13.5vw;
+        margin-left: -7vw;
+        margin-right: -7vw;
         width: 90vw;
         height: 50vh;
         display: flex;
@@ -1704,7 +1704,7 @@ nav {
         align-items: center;
     }
     .card-title{
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .card-title2{
         font-size: 1.5em;
@@ -1714,7 +1714,7 @@ nav {
     }
     .fixed-bottom-left{
         font-size: 1.5em;
-        margin-left: 70vw;
+        margin-left: 90vw;
         max-width: 70vw;
         height: 5vh;
     }
@@ -1736,7 +1736,7 @@ nav {
     
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 551px) and (max-width: 1024px) {
 
     .slider-frame{
         width: 200vw;
@@ -1758,7 +1758,7 @@ nav {
     }
 
     .div11 {
-        width: 49%;
+        width:105.35vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2396,7 +2396,7 @@ nav {
         }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 550px){
+@media only screen and (min-width: 500px) and (max-width: 530px){
     .div11{
         margin-bottom: 18vh;
     }
@@ -2416,16 +2416,13 @@ nav {
         width: 58vw;
         height: 28vh;
     }
+    .opcaooo{
+        margin-left: 22vw;
+        width: 70vw;
+        height: 35vh;
+    }
     .titulomodal {
         width: 58vw;
-    }
-    .rowblog img{
-        width: 50vw;
-        height: 25vh;
-    }
-    .rowblog2 img{
-        width: 48.33vw;
-        height: 25vh;
     }
     .ajudablog{
         max-width: 45vw;
@@ -2468,6 +2465,13 @@ nav {
     .card-text{
         font-size: 1em;
     }
+    .textott{
+        font-size: 1.6em;
+    }
+    .rowblog img{
+        width: 280px;
+        height: 280px;
+    }
 }
 
 @media (max-width: 400px){
@@ -2485,7 +2489,7 @@ nav {
         height: 120vh ;
     }
     .div11{
-        margin-bottom: 50vh;
+        margin-bottom: 60vh;
     }
     body {
         zoom: 50%; /* Defina o valor de zoom desejado, como 80% */
@@ -2511,10 +2515,10 @@ nav {
         height: 15vh;
     }
     #footer{
-        height: 50vh;
+        height: 40vh;
     }
     .card-body{
-        height: 70vh;
+        max-height: 45vh;
     }
     .blog{
         height: 100vh;
@@ -2523,19 +2527,24 @@ nav {
         width: 45vw ;
         height: 25vh;
     }
+    .rowblog img{
+        width: 45vw ;
+        height: 25vh;
+    }
     .button2{
-        margin-top: 10vh;
+        margin-top: 12vh;
         width: 30vw;
     }
-    .card-title{
-        width: 45vw;
+    .card-title, .card-title2{
+        font-size: 1.5em;
+        max-width: 70vw;
     }
     .ajudablog{
-        font-size: 0.9em;
-        width: 45vw;
+        font-size: 1.2em;
+        max-width: 70vw;
     }
     .div1{
-        width: 220vw;      
+        width: 250vw;      
     }
     .hist h10{
         font-size: 5em;
@@ -2546,5 +2555,294 @@ nav {
     }
     .envios, .div1{
         height: 100vh;
+    }
+
+    .div11{
+        max-width: 600vw;
+        margin-top: 55vh;
+        margin-right: -80vw;
+    }
+    .div45{
+        margin-right: 30vw;
+    }
+    .slide img {
+        max-width: 130vw;
+        height: 45vh;
+    }
+    .manual-btn{
+        margin-top: 7vh;
+    }
+    .navigation-auto{
+        margin-top: 37vh;
+    }
+    .texto1, .texto1a{
+        font-size: 1.8em;
+        width: 100vw;
+    }
+    .texto44{
+        margin-left: -120vw;
+        font-size: 4em;
+    }
+    .opcao{
+        width: 280px;
+        height: 280px;
+    }
+    .titulomodal{
+        width: 280px;
+    }
+    .slider-frame, .div111, .div3, .envios, .blog, #footer{
+        width: 320vw;
+    }
+    .divser, .divser2, .divser3{
+        width: 10vw;
+    }
+    .div1{
+        width: 320vw;
+    }
+    .rowblog2 img{
+        width: 280px;
+        height: 280px;
+    }
+    .postagem{
+        margin-left: 5vw ;
+        margin-right: 5vw;
+    }
+    .envios input, .envios textarea {
+        width: 140vw;
+    }
+    body {
+        zoom: 31%; /* Defina o valor de zoom desejado, como 80% */
+    }
+    .formulario{
+        margin-left: -70vw;
+    }
+    .button2b{
+        margin-top: 30vh;
+    }
+    .texto4b{
+        margin-top: -65vh;
+        margin-bottom: 14vh;
+    }
+    .rowwblog{
+        margin-left: 102vw;
+    }
+    .card-titlee{
+        margin-left: -100vw;
+    }
+    .paraotexto{
+        width: 140vw;
+        margin-left: 88vw;
+    }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1600px) {
+   .slider-frame, .div3, .div1{
+        height: 900px;
+    }
+   .slider-frame img{
+    height: 1080px;
+    }
+   .texto44{
+    font-size: 5em;
+    width: 40vw;
+   }
+   .card-body{
+    height: 50vh;
+   }
+   .div11{
+    margin-top: -15vh;
+   }
+   .texto1, .texto1a{
+    font-size: 2em;
+   }
+   .texto44{
+    margin-left: 5vw;
+   }
+   .blog{
+    height: 900px;
+   }
+   .card-body{
+    height: 60vh;
+   }
+   #footer{
+    height: 35vh;
+   }
+   .test2{
+    margin-left: -15vw;
+   }
+   .agora{
+    width: 60vw;
+   }
+   .envios input, .envios textarea{
+    width: 40vw;
+   }
+   .formulario{
+    margin-left: -5vw;
+    margin-top: -4vh;
+   }
+   .bg-modal, .bg-modal2, .bg-modal3{
+    height: 60vh;
+   }
+   .fixed-bottom-left{
+    margin-left: 25vw;
+   }
+   .paraotexto{
+    margin-left: 12vw;
+   }
+   .imagemblog{
+    margin-left: -2.5vw;
+   }
+   .navigation-auto, .manual-navigation{
+    margin-left: 6vw;
+    margin-top: 60vh;
+   }
+}
+@media screen and (min-width: 530px) and (max-width: 600px) {
+    .navigation-auto, .manual-navigation{
+        margin-top: 50vh;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 380px) {
+    .texto1, .texto1a{
+        font-size: 1.5em;
+    }
+    .div11{
+        margin-left: 12vw;
+        margin-top: 63vh;
+    }
+    .texto44{
+        margin-top: -40vh;
+    }
+    .bg-modal, .bg-modal2, .bg-modal3{
+        height: 85vh;
+    }
+    .botoesservico{
+        margin-top: 15vh;
+    }
+    .titulomodal{
+        margin-top: -10vh;
+    }
+    .opcao{
+        width: 300px;
+        height: 300px;
+    }
+    .titulomodal{
+        margin-top: 0vh;
+        width: 300px;
+    }
+    .div3, .blog{
+        height: 100vh ;
+    }
+    .postagem{
+        margin-top: 10vh;
+    }
+    .card-body{
+        height: 90vh;
+    }
+    .button2{
+        margin-top: 25vh;
+    }
+    .div1{
+        height: 100vh;
+    }
+    .opcaooo{
+        height: 50vh;
+    }
+    .manual-navigation, .navigation-auto{
+        margin-left: -15vw;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 380px) {
+    .div11{
+        margin-top: 70vh;
+    }
+    #footer{
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .div11{
+        width: 200vw;
+        margin-top: 80vh;
+        margin-right: -70vw;
+    }
+    #footer{
+        height: 48vh;
+    }
+    .slide img{
+        width: 150vw;
+    }
+    .texto1, .texto1a{
+        margin-left: 50vw;
+        font-size: 1.5em;
+        width: 140vw;
+    }
+    .navigation-auto, .manual-navigation{
+        margin-left: -10vw;
+    }
+    .opcao{
+        width: 250px;
+        height: 250px;
+    }
+    .titulomodal{
+        width: 250px;
+    }
+    .rowblog2 img, .rowblog img{
+        width: 200px ;
+        height: 200px;
+    }
+    .button2{
+        margin-top: 25vh;
+        width: 50vw;
+    }
+    .navbar.test .navbar-nav{
+        width: 90vw;
+    }
+    .navbar.test .navbar-nav .nav-link{
+        margin-left: -40vw;
+    }
+    .bg-modal, .bg-modal2, .bg-modal3{
+        height: 100vh;
+        width: 300vw;
+    }
+    .opcaooo{
+        width: 300px ;
+        height: 300px ;
+        margin-right: 10vw;
+    }
+    .textott{
+        font-size: 1.5em;
+        width: 120vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+    }
+    .texto33{
+        margin-left: -12vw;
+        margin-top: 5vh;
+    }
+    .botoesservico{
+        margin-bottom: 10vh;
+    }
+    .sliderrr, .sliderr, .sliderr3 {
+        height: 100vh;
+        width: 250vw;
+    }
+    .card-body{
+        height: 100vh;
+    }
+    .postagem{
+        margin-top: 10vh;
+    }
+    .rowblog {
+        display: grid;
+        grid-template-columns: repeat(2, 125vw);
+        grid-auto-rows: minmax(600px, auto);
+    }
+    .fixed-bottom-left{
+        font-size: 1.6em;
+        max-width: 120vw;
+        height: 15vh;
     }
 }
