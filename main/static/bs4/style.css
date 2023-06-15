@@ -2866,6 +2866,13 @@ nav {
     #footer{
         height: 50vh;
     }
+    .opcao{
+        width: 280px;
+        height: 280px;
+    }
+    .titulomodal{
+        width: 280px;
+    }
 
 }
 
