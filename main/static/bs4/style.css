@@ -65,7 +65,7 @@ body {
     line-height: 35px; /* Centraliza verticalmente */
     bottom: 0;
     max-width: 200px; /* Defina a largura máxima desejada */
-    margin-left: 33.5vw;
+    margin-left: 32.5vw;
 }
 
 
@@ -187,7 +187,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-left: 20vw;
+    margin-left: 18vw;
 }
 
 .redesSociais a {
@@ -236,7 +236,7 @@ body {
 
 .test {
     background-color: #18745B;
-    height: 70px;
+    height: 11vh;
     align-items: center;
     justify-content: center;
     text-align: justify;
@@ -330,7 +330,7 @@ body {
 }
 
 .div11 {
-    width: 49%;
+    width: 49vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,7 +347,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 120vh;
+    height: 100vh;
 }
 
 .div3 {
@@ -579,7 +579,7 @@ body {
 
 .texto1 {
     color: white;
-    font-size: 22px;
+    font-size: 1.3em;
     width: 35vw;
     margin-left: -2vw;
     text-indent: 4vw;
@@ -588,7 +588,7 @@ body {
 
 .texto1a {
     color: white;
-    font-size: 22px;
+    font-size: 1.3em;
     width: 35vw;
     margin-left: -2vw;
     text-indent: 4vw;
@@ -1255,13 +1255,12 @@ nav {
     }
 
     .dentrodoblog {
-        position: fixed;
         width: 100%;
         height: 250vh;
         background-image: url(../imagem/blog2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: center;
     }
     .imagemblog {
         margin-left: -25.5vw;
@@ -1827,16 +1826,18 @@ nav {
     .navigation-auto {
         position: absolute;
         width: 90vw;
-        margin-top: 40vh;
+        margin-top: 44vh;
         display: flex;
         justify-content: end;
+        margin-left: 3vw;
     }
     .manual-navigation {
         position: absolute;
         width: 90vw;
         display: flex;
         justify-content: end;
-        margin-top: 40vh;
+        margin-top: 44vh;
+        margin-left: 3vw;
     }
     
     .manual-btn {
@@ -2261,7 +2262,7 @@ nav {
         transform: scale(1.5) rotate(90deg);
     }
     .navbar.test .navbar-nav {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
         margin: 0;
@@ -2575,8 +2576,12 @@ nav {
     .manual-btn{
         margin-top: 7vh;
     }
+    .manual-navigation{
+        margin-left: -17vw;
+    }
     .navigation-auto{
         margin-top: 37vh;
+        margin-left: -17vw;
     }
     .texto1, .texto1a{
         font-size: 1.8em;
@@ -2638,7 +2643,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 1361px) and (max-width: 1600px) {
+@media screen and (min-width: 1370px) and (max-width: 1600px) {
    .slider-frame, .div3, .div1{
         height: 900px;
     }
@@ -2866,12 +2871,18 @@ nav {
     #footer{
         height: 50vh;
     }
-    .opcao{
+    .opcao, .rowblog2 img, .rowblog img{
         width: 75vw;
         height: 40vh;
     }
     .titulomodal{
-        width: 280px;
+        width: 75vw;
+    }
+    .div111, .blog{
+        height: 110vh;
+    }
+    .div1{
+        height: 125vh;
     }
 
 }
@@ -3037,7 +3048,167 @@ nav {
         height: 100vh;
     }
     .div11{
-        width: 150vw;
+        width: 90vw;
+        height: 45vh;
+    }
+    .slide img{
+        width: 90vw;
+        height: 45vh;
+    }
+    .slide{
+        width: 90vw;
+        height: 45vh;
     }
 }
 
+@media screen and (min-width: 1601px) and (max-width: 2000px){
+    .div11{
+        margin-top: -10vh;
+        margin-left: 5vw;
+    }
+    .texto1, .texto1a{
+        font-size: 2em;
+    }
+    .opcao{
+        width: 25vw;
+        height: 45vh;
+    }
+    .titulomodal{
+        width: 25vw;
+        height: 15vh;
+    }
+    .texto{
+        font-size: 2em;
+    }
+    .button2{
+        font-size: 2em;
+        width: 12vw;
+        margin-top: -15vh;
+    }
+    .button2x{
+        font-size: 2em;
+        width: auto;
+        height: 7vh;
+    }
+    .texto4b{
+        font-size: 5em;
+        margin-bottom: 25vh;
+    }
+    .texto4, .texto44b{
+        font-size: 5em;
+    }
+    .button2b{
+        font-size: 2em;
+    }
+    .card-title, .card-title2{
+        font-size: 2.5em;
+    }
+    .blog, .div1, .envios, .slider-frame, .slider-frame img{
+        height: 100vh;
+    }
+    .bg-modal, .bg-modal2, .bg-modal3{
+        height: 80vh;
+    }
+    .textott, .textott12, .textott128, .textott1{
+        font-size: 2em;
+        max-width: 25vw;
+    }
+    .itensdeservico{
+        margin-left: 5vw;
+    }
+    .opcaooo, .opcaooo2, .opcaooo22, .opcaooo3, .opcaooox{
+        width: 25vw;
+        height: 45vh;
+    }
+    .rowblog2 img{
+        width: 22.5vw;
+        height: 39vh;
+    }
+    .rowblog img{
+        width: 22.5vw;
+        height: 39vh;
+    }
+    .postagem{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .ajudablog{
+        font-size: 1.8em;
+    }
+    .s1{
+        font-size: 2.5em;
+        width: auto;
+        height: auto;
+    }
+    .avs{
+        margin-top: 0vh;
+    }
+    #footer{
+        height: 30vh;
+    }
+    .navbar-brand img{
+        height: 100px;
+        width: auto;
+    }
+    .logonome{
+        width: 20vw;
+    }
+    .envios input{
+        width: 37vw;
+        height: 5vh;
+    }
+    .envios textarea{
+        width: 37vw;
+        height: 20vh;
+    }
+    .formulario{
+        margin-left:  -8vw;
+    }
+    .test{
+        font-size: 2em;
+    }
+    .texto33{
+        font-size: 4em;
+    }
+    .texto3334{
+        margin-top: 5vh;
+        margin-bottom: -3vh;
+        font-size: 3em;
+    }
+    .opcaooo22, .textott128{
+        margin-top: 7vh;
+    }
+    .opcaooo2{
+        margin-top: 3vh;
+    }
+    .fixed-bottom-left{
+        margin-left: 17.7vw;
+        font-size: 2.5em;
+        max-width: 22vw;
+        height: 8vh;
+    }
+    .dentrodoblog{
+        height: 120vh;
+    }
+    .rowblog{
+        margin-left: 1vw;
+    }
+    .paraotexto{
+        margin-left: 6.5vw;
+        font-size: 2em;
+    }
+    .card-titlee{
+        font-size: 4em;
+        width: 40vw;
+        margin-left: -6.5vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .xx{
+        margin-top: 5vh;
+        font-size: 2em;
+    }
+    .fxf{
+        margin-top: 4vh;
+    }
+}
