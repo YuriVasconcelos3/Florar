@@ -1278,6 +1278,10 @@ nav {
     .algo{
         margin-top: -2vh;
     }
+    .navbar-brand img{
+        width: 70vw;
+        height: auto;
+    }
     .slider-frame{
         width: 250vw;
         overflow: hidden;
@@ -2808,15 +2812,15 @@ nav {
         margin-top: -10vh;
     }
     .opcao{
-        width: 300px;
-        height: 300px;
+        width: 75vw;
+        height: 40vh;
     }
     .titulomodal{
         margin-top: 0vh;
-        width: 300px;
+        width: 75vw;
     }
     .div3, .blog{
-        height: 100vh ;
+        height: 110vh ;
     }
     .postagem{
         margin-top: 10vh;
@@ -2869,7 +2873,7 @@ nav {
         zoom:32% ;
     }
     #footer{
-        height: 50vh;
+        height: 55vh;
     }
     .opcao, .rowblog2 img, .rowblog img{
         width: 75vw;
@@ -2878,13 +2882,61 @@ nav {
     .titulomodal{
         width: 75vw;
     }
-    .div111, .blog{
+    .div111, .blog, .envios{
         height: 110vh;
     }
     .div1{
-        height: 125vh;
+        height: 140vh;
     }
+    .texto4b{
+        margin-top: -70vh;
+        margin-bottom: 30vh;
+    }
+    .button2b{
+        margin-top: 40vh;
+    }
+    .envios input{
+        height: 7vh;
+    }
+    .envios textarea{
+        height: 30vh;
+    }
+    .dentrodoblog {
+        width: 250vw;
+        background-image: url(../imagem/Dentrodoblog.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .paraotexto{
+        margin-left: 54vw;
+    }
+    .imagemblog{
+        width: 150vw;
+        height: 80vh;
+        margin-left: -54vw;
+    }
+    .button2x {
+        font-size: 1.8em;
+        width: 40vw;
+        height: 10vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .rowblog {
+        display: grid;
+        grid-template-columns: repeat(2, 125vw);
+        grid-auto-rows: minmax(100vh, auto);
+    }
+    .button2{
+        width: 25vw;
+        height: 5vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
 
+    }
 }
 
 @media screen and (max-width: 300px) {
