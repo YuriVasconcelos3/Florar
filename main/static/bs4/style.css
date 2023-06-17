@@ -1425,16 +1425,16 @@ nav {
     }
 
     .opcao {
-        width: 250px;
-        height: 250px;
+        width: 60vw ;
+        height: 35vh ;
         cursor: pointer;
     }
     
     .titulomodal {
         display: flex;
         background-color: #18745B;
-        width: 250px;
-        height: 150px;
+        width: 60vw;
+        height: 15vh;
         justify-content: center;
         align-items: center;
     }
@@ -1512,8 +1512,9 @@ nav {
     }
     .texto44{
         font-size: 4em;
+        width: 150vw;
         position: absolute;
-        margin-left: -120vw ;
+        margin-left: -70vw ;
         margin-top: -50vh;
     }
     .escolha{
@@ -1663,7 +1664,7 @@ nav {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 5vh;
         margin-left: 72vw;
     }
     .card-titlee {
@@ -1681,16 +1682,15 @@ nav {
         justify-content: center;
         align-items: center;
         text-align: justify;
-        height: 200px;
         margin-left: -1vw;
     }
     .rowblog2 img{
         width: 60vw;
-        height: 28vh;
+        height: 30vh;
     }
     .rowblog img{
         width: 60vw;
-        height: 28vh;
+        height: 30vh;
     }
     .rowblog {
         margin-left: 30vw;
@@ -1727,14 +1727,14 @@ nav {
         height: 5vh;
     }
     .button2{
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: 4vw;
     }
     .navbar.test .navbar-nav {
         width: 80vw;
     }
     .navbar.test .navbar-nav .nav-link{
-        font-size: 40px;
+        font-size: 2.5em;
         margin-left: -32vw;
     }
     .textott{
