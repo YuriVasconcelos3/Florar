@@ -2614,8 +2614,8 @@ nav {
         width: 320vw;
     }
     .rowblog2 img{
-        width: 280px;
-        height: 280px;
+        width: 90vw ;
+        height: 45vh ;
     }
     .postagem{
         margin-left: 5vw ;
@@ -2673,7 +2673,7 @@ nav {
     margin-left: 5vw;
    }
    .blog{
-    height: 900px;
+    height: 100vh;
    }
    .card-body{
     height: 60vh;
@@ -2872,7 +2872,7 @@ nav {
         margin-left: -140vw;
     }
     body{
-        zoom:32% ;
+        zoom:32%;
     }
     #footer{
         height: 55vh;
@@ -2962,15 +2962,15 @@ nav {
         margin-left: -10vw;
     }
     .opcao{
-        width: 250px;
-        height: 250px;
+        width: 90vw ;
+        height: 45vh ;
     }
     .titulomodal{
-        width: 250px;
+        width: 90vw ;
     }
     .rowblog2 img, .rowblog img{
-        width: 200px ;
-        height: 200px;
+        width: 75vw ;
+        height: 30vh;
     }
     .button2{
         margin-top: 25vh;
@@ -2993,8 +2993,8 @@ nav {
         margin-right: 155vw;
     }
     .opcaooo{
-        width: 300px ;
-        height: 300px ;
+        width: 90vw ;
+        height: 45vh ;
         margin-right: 10vw;
     }
     .textott{
@@ -3023,7 +3023,7 @@ nav {
     .rowblog {
         display: grid;
         grid-template-columns: repeat(2, 125vw);
-        grid-auto-rows: minmax(600px, auto);
+        grid-auto-rows: minmax(90vh, auto);
     }
     .fixed-bottom-left{
         font-size: 1.6em;
