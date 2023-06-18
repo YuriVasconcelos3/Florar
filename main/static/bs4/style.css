@@ -274,7 +274,7 @@ body {
 }
 
 .blog {
-    height: 800px;
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1275,6 +1275,9 @@ nav {
 }
 
 @media (max-width: 550px){
+    .button2b {
+        margin-top: 30vh;
+    }
     .algo{
         margin-top: -2vh;
     }
@@ -1475,7 +1478,7 @@ nav {
     }
     .blog {
         width: 250vw;
-        height: 100vh;
+        height: 110vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1509,6 +1512,7 @@ nav {
     }
     .texto4b{
         margin-top: -60vh;
+        margin-bottom: 15vh;
     }
     .texto44{
         font-size: 4em;
@@ -1727,6 +1731,8 @@ nav {
         height: 5vh;
     }
     .button2{
+        width: 30vw;
+        height: 4.5vh;
         margin-top: 10vh;
         margin-left: 4vw;
     }
@@ -2805,7 +2811,15 @@ nav {
         margin-top: -40vh;
     }
     .bg-modal, .bg-modal2, .bg-modal3{
-        height: 85vh;
+        margin-top: 120vh;
+        width: 250vw;
+        height: 95vh;
+    }
+    .bg-modal{
+        margin-left: 180vw;
+    }
+    .bg-modal3{
+        margin-right: 135vw;
     }
     .botoesservico{
         margin-top: 15vh;
@@ -2814,12 +2828,13 @@ nav {
         margin-top: -10vh;
     }
     .opcao{
-        width: 75vw;
-        height: 40vh;
+        margin-top: 20vh;
+        width: 90vw;
+        height: 55vh;
     }
     .titulomodal{
         margin-top: 0vh;
-        width: 75vw;
+        width: 90vw;
     }
     .div3, .blog{
         height: 110vh ;
@@ -2837,28 +2852,51 @@ nav {
         height: 100vh;
     }
     .opcaooo{
+        width: 80vw;
         height: 50vh;
     }
     .manual-navigation, .navigation-auto{
         margin-left: -15vw;
     }
+    .div3{
+        height: 150vh;
+    }
+    .div112, .div1122, .div1123{
+        margin-top: 5vh;
+    }
+    .s1{
+        margin-top: -20vh;
+        width: auto;
+        height: 10vh;
+        font-size: 2em;
+    }
+    .sliderr3, .sliderrr, .sliderr{
+        height: 80vh;
+    }
+    .textott{
+        margin-left: 30vw;
+        font-size: 1.5em;
+        width: 90vw;
+    }
+    
 }
 
 
 
 @media screen and (min-width: 370px) and (max-width: 375px) {
     .div11{
-        width: 110vw;
+        width: 130vw;
         height: 120vh;
         margin-top: 30vh;
         margin-right: 3vw;
+        margin-left: -10vw ;
     }
     .slider{
-        width: 110vw;
+        width: 130vw;
         height: 50vh;
     }
     .slide img{
-        width: 110vw;
+        width: 130vw;
         height: 50vh;
     }
     #footer{
@@ -2877,15 +2915,12 @@ nav {
     #footer{
         height: 55vh;
     }
-    .opcao, .rowblog2 img, .rowblog img{
+    .rowblog2 img, .rowblog img{
         width: 75vw;
         height: 40vh;
     }
-    .titulomodal{
-        width: 75vw;
-    }
     .div111, .blog, .envios{
-        height: 110vh;
+        height: 120vh;
     }
     .div1{
         height: 140vh;
@@ -2937,7 +2972,27 @@ nav {
         text-align: center;
         display: flex;
         align-items: center;
-
+    }
+    .logonome {
+        margin-top: -30vh;
+        width: auto;
+        height: 15vh;
+    }
+    .redesSociais a {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 16vw;
+        height: 10vh;
+    }
+    .algo{
+        width: 50vw;
+    }
+    .sps{
+        font-size: 1.2em;
+    }
+    .xx{
+        margin-top: 10vh;
+        font-size: 2em;
     }
 }
 
