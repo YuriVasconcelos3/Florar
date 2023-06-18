@@ -1159,12 +1159,12 @@ nav {
     }
 
     .slider {
-        width: 100%;
+        width: 100vw;
         height: auto;
     }
 
     .slide img {
-        width: 100%;
+        width: 100vw;
         height: auto;
     }
 
@@ -1746,6 +1746,19 @@ nav {
     .textott{
         width: 65vw;
         margin-right: 20vw;
+    }
+    .opcaooo2{
+        margin-left: 6vw;
+        margin-top: -3vh;
+        margin-right: 15vw;
+    }
+    .textott12{
+        margin-top: 2vh;
+        max-width: 80vw;
+    }
+    .texto3334{
+        margin-top: 0vh;
+
     }
     
 }
