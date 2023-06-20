@@ -1314,6 +1314,9 @@ nav {
     .slide img{
         width: 105.35vw;
     }
+    .slide{
+        width: 105.35vw;
+    }
     .div11 {
         max-width: 105.35vw;
         display: flex;
