@@ -1311,6 +1311,9 @@ nav {
     .texto33{
         margin-top: -0.7vh;
     }
+    .slide img{
+        width: 105.35vw;
+    }
     .div11 {
         max-width: 105.35vw;
         display: flex;
