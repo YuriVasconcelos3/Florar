@@ -2796,8 +2796,8 @@ nav {
         margin-left: 15vw;
     }
     .opcao{
-        width: 280px;
-        height: 280px;
+        width: 58vw;
+        height: 28vh;
     }
     .titulomodal{
         width: 280px;
@@ -2891,7 +2891,6 @@ nav {
         font-size: 1.5em;
         width: 90vw;
     }
-    
 }
 
 
@@ -2925,6 +2924,7 @@ nav {
     body{
         zoom:32%;
     }
+    
     #footer{
         height: 55vh;
     }
