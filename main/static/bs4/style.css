@@ -2585,7 +2585,7 @@ nav {
         margin-right: 30vw;
     }
     .slide img {
-        max-width: 100vw;
+        width: 100vw;
         height: 45vh;
     }
     .manual-btn{
@@ -2889,15 +2889,17 @@ nav {
 
 @media screen and (min-width: 370px) and (max-width: 375px) {
     .div11{
-        width: 130vw;
+        margin-bottom: 90vh;
+        width: 140vw;
         height: 120vh;
+        margin-right: 20vw;
     }
     .slider{
-        width: 130vw;
+        width: 140vw;
         height: 50vh;
     }
     .slide img{
-        width: 130vw;
+        width: 140vw;
         height: 50vh;
     }
     #footer{
@@ -2905,10 +2907,10 @@ nav {
     }
     .div45{
         margin-left: 40vw;
-        margin-right: -10vw;
+        margin-right: 5vw;
     }
     .texto44{
-        margin-left: -140vw;
+        margin-left: -160vw;
     }
     body{
         zoom:32%;
