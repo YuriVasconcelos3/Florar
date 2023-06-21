@@ -386,7 +386,7 @@ body {
 
 .slider {
     margin-top: 23vh;
-    width: 800px;
+    width: 100vw;
     height: 600px;
     overflow: hidden;
 }
@@ -1355,7 +1355,7 @@ nav {
         margin-bottom: 25vh;
     }
     .slider {
-        width: 800px;
+        width: 110vw;
         height: 70vh;
         overflow: hidden;
     }
