@@ -22,9 +22,11 @@ body {
     cursor: pointer;
     width: 140px;
     height: 40px;
-    text-align: center;
     font-family: 'GlacialIndifferenceRegular';
     line-height: 35px; /* Centraliza verticalmente */
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .button2 {
@@ -330,12 +332,13 @@ body {
 }
 
 .div11 {
-    width: 49vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 9vh;
-    height: 70vh;
+    height: 40vh;
+    margin-right: -2vw;
 }
 
 .div111 {
@@ -370,7 +373,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-left: 120px;
+    margin-left: 8vw;
     margin-top: 9vh;
 }
 
@@ -385,15 +388,14 @@ body {
 }
 
 .slider {
-    margin-top: 23vh;
     width: 100vw;
-    height: 600px;
+    height: 80vh;
     overflow: hidden;
 }
 
 .slides {
     width: 400%;
-    height: 400px;
+    height: 80vh;
     display: flex;
 }
 
@@ -408,20 +410,20 @@ body {
 
 .slide img {
     width: 50vw;
-    height: 75vh;
+    height: 80vh;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 650px;
+    width: 47.8vw;
     display: flex;
     justify-content: end;
-    margin-top: 65vh;
+    margin-top: 68vh;
 }
 
 .manual-btn {
-    width: 20px;
-    height: 20px;
+    width: 1.5vw;
+    height: 3vh;
     border: 4px solid #41A68E;
     padding: 5px;
     border-radius: 50%;
@@ -456,8 +458,8 @@ body {
 
 .navigation-auto div {
     border: 4px solid #41A68E;
-    width: 20px;
-    height: 20px;
+    width: 1.5vw;
+    height: 3vh;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
@@ -467,8 +469,8 @@ body {
 
 .navigation-auto {
     position: absolute;
-    width: 650px;
-    margin-top: 65vh;
+    width: 47.8vw;
+    margin-top: 68vh;
     display: flex;
     justify-content: end;
 }
@@ -579,7 +581,7 @@ body {
 
 .texto1 {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.5em;
     width: 35vw;
     margin-left: -2vw;
     text-indent: 4vw;
@@ -588,7 +590,7 @@ body {
 
 .texto1a {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.5em;
     width: 35vw;
     margin-left: -2vw;
     text-indent: 4vw;
@@ -1312,7 +1314,7 @@ nav {
         margin-top: -0.7vh;
     }
     .slide img{
-        width: 105.35vw;
+        width: 110vw;
     }
     .div11 {
         max-width: 105.35vw;
@@ -1321,8 +1323,8 @@ nav {
         align-items: center;
         margin-right: 10vw;
         margin-left: -10vw;
-        margin-bottom: 5vh;
         height: 70vh;
+        margin-top: 20vh;
     }
 
     .texto1 {
@@ -1352,7 +1354,7 @@ nav {
         align-items: center;
         text-align: justify;
         margin-left: 15vw;
-        margin-bottom: 25vh;
+        margin-bottom: 30vh;
     }
     .slider {
         width: 110vw;
@@ -1383,7 +1385,7 @@ nav {
     .navigation-auto {
         position: absolute;
         width: 90vw;
-        margin-top: 30vh;
+        margin-top: 32vh;
         display: flex;
         justify-content: end;
         margin-left: -30vw;
@@ -1393,10 +1395,9 @@ nav {
         width: 90vw;
         display: flex;
         justify-content: end;
-        margin-top: 30vh;
+        margin-top: 32vh;
         margin-left: -30vw;
     }
-    
     .manual-btn {
         width: 20px;
         height: 20px;
@@ -2526,12 +2527,6 @@ nav {
     body {
         zoom: 50%; /* Defina o valor de zoom desejado, como 80% */
     }
-    .texto44{
-        font-size: 3em;
-        width: 150vw;
-        margin-bottom: 30vh;
-        margin-left: -50vw;
-    }
     .div3{
         height: 100vh;
     }
@@ -2554,14 +2549,6 @@ nav {
     }
     .blog{
         height: 100vh;
-    }
-    .rowblog2 img{
-        width: 45vw ;
-        height: 25vh;
-    }
-    .rowblog img{
-        width: 45vw ;
-        height: 25vh;
     }
     .button2{
         margin-top: 12vh;
@@ -2591,33 +2578,36 @@ nav {
 
     .div11{
         max-width: 600vw;
-        margin-top: 55vh;
-        margin-right: -80vw;
+        margin-top: 80vh;
+        margin-right: -20vw;
     }
     .div45{
         margin-right: 30vw;
     }
     .slide img {
-        max-width: 130vw;
+        max-width: 100vw;
         height: 45vh;
     }
     .manual-btn{
         margin-top: 7vh;
     }
     .manual-navigation{
-        margin-left: -17vw;
+
+        margin-left: -30vw;
     }
     .navigation-auto{
-        margin-top: 37vh;
-        margin-left: -17vw;
+        margin-top: 39vh;
+        margin-left: -30vw;
     }
     .texto1, .texto1a{
-        font-size: 1.8em;
+        font-size: 1.5em;
         width: 100vw;
     }
     .texto44{
-        margin-left: -120vw;
+        margin-left: -150vw;
         font-size: 4em;
+        width: 150vw;
+        margin-bottom: 25vh;
     }
     .opcao{
         width: 280px;
@@ -2635,8 +2625,8 @@ nav {
     .div1{
         width: 320vw;
     }
-    .rowblog2 img{
-        width: 90vw ;
+    .rowblog2 img, .rowblog img{
+        width: 85vw ;
         height: 45vh ;
     }
     .postagem{
@@ -2819,12 +2809,8 @@ nav {
     .texto1, .texto1a{
         font-size: 1.5em;
     }
-    .div11{
-        margin-left: 12vw;
-        margin-top: 63vh;
-    }
     .texto44{
-        margin-top: -40vh;
+        margin-top: -50vh;
     }
     .bg-modal, .bg-modal2, .bg-modal3{
         margin-top: 120vh;
@@ -2902,9 +2888,6 @@ nav {
     .div11{
         width: 130vw;
         height: 120vh;
-        margin-top: 30vh;
-        margin-right: 3vw;
-        margin-left: -10vw ;
     }
     .slider{
         width: 130vw;
@@ -3016,7 +2999,6 @@ nav {
     .div11{
         width: 200vw;
         margin-top: 80vh;
-        margin-right: -70vw;
     }
     #footer{
         height: 48vh;
@@ -3117,12 +3099,14 @@ nav {
     }
 }
 @media screen and (min-width: 350px) and (max-width: 360px) {
-    .div11{
-        margin-left: 12vw;
-        margin-top: 70vh;
-    }
     .texto1, .texto1a{
         width: 120vw;
+    }
+    .button2{
+        margin-top: 35vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     #footer{
         height: 45vh;
@@ -3153,6 +3137,33 @@ nav {
     }
     .card-titlee{
         margin-left: -95vw;
+    }
+    .div11{
+        margin-top: 80vh;
+        margin-right: -8vw;
+    }
+    .slider{
+        max-width: 150vw;
+    }
+    .slide img{
+        max-width: 150vw ;
+    }
+    .manual-navigation{
+        margin-left: -26vw;
+    }
+    .navigation-auto{
+        margin-left: -26vw;
+    }
+    .rowblog{
+        margin-left: 5vw;
+        grid-template-columns: repeat(3, 100vw);
+        grid-auto-rows: minmax(600px, auto);
+    }
+    .fixed-bottom-left {
+        width: auto;
+        height: auto;
+        font-size: 2em;
+        margin-left: 120vw;
     }
 }
 
@@ -3188,11 +3199,10 @@ nav {
 
 @media screen and (min-width: 1601px) and (max-width: 2000px){
     .div11{
-        margin-top: -10vh;
         margin-left: 5vw;
     }
     .texto1, .texto1a{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .opcao{
         width: 25vw;
