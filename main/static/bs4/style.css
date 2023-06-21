@@ -3173,20 +3173,27 @@ nav {
         margin-left: -95vw;
     }
     .div11{
-        margin-top: 80vh;
-        margin-right: -8vw;
+        margin-top: 60vh;
+        margin-right: -10vw;
+    }
+    .div45{
+        margin-right: 40vw;
     }
     .slider{
-        max-width: 150vw;
+        height: auto;
+        width: 130vw;
     }
     .slide img{
-        max-width: 150vw ;
+        height: auto;
+        width: 130vw ;
     }
     .manual-navigation{
-        margin-left: -26vw;
+        margin-top: 40vh;
+        margin-left: -16vw;
     }
     .navigation-auto{
-        margin-left: -26vw;
+        margin-top: 47vh;
+        margin-left: -16vw;
     }
     .rowblog{
         margin-left: 5vw;
