@@ -2871,6 +2871,9 @@ nav {
         width: auto;
         height: 8vh;
         font-size: 2em;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     .sliderr3, .sliderrr, .sliderr{
         height: 80vh;
