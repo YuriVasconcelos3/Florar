@@ -3165,6 +3165,12 @@ nav {
         font-size: 2em;
         margin-left: 120vw;
     }
+    .sliderr3, .sliderrr, .sliderr{
+        height: 80vh;
+    }
+    .texto33{
+        margin-left: -20vw;
+    }
 }
 
 @media screen and (min-width: 750px) and (max-width: 800px){
