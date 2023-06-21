@@ -1314,7 +1314,12 @@ nav {
         margin-top: -0.7vh;
     }
     .slide img{
+        width: 105.35vw;
+    }
+    .slider {
         width: 110vw;
+        height: 70vh;
+        overflow: hidden;
     }
     .div11 {
         max-width: 105.35vw;
@@ -1353,13 +1358,8 @@ nav {
         justify-content: center;
         align-items: center;
         text-align: justify;
-        margin-left: 15vw;
+        margin-left: 20vw;
         margin-bottom: 30vh;
-    }
-    .slider {
-        width: 110vw;
-        height: 70vh;
-        overflow: hidden;
     }
     .slides {
         width: 400%;
