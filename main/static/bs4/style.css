@@ -2230,8 +2230,9 @@ nav {
     }
     .textott, .textott128{
         width: 25vw;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-left: 5vw;
+        margin-top: 5vh;
     }
     .textott12, .textott1{
         width: 20vw;
