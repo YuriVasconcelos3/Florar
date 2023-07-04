@@ -780,8 +780,7 @@ nav {
 }
   
 .bg-modal.fullscreen .bg-image, .bg-modal2.fullscreen .bg-image, .bg-modal3.fullscreen .bg-image {
-    background-size: contain !important;
-    
+    background-size: 80% 100% !important;
 }
   
 .opcao.fullscreen {
@@ -1162,6 +1161,9 @@ nav {
     display: block;
 }
 @media only screen and (max-width: 1000px) {
+    .bg-modal.fullscreen .bg-image, .bg-modal2.fullscreen .bg-image, .bg-modal3.fullscreen .bg-image {
+        background-size: 100% 40% !important;
+    }
     .slider-frame img{
         width: 100vw;
         height: 25vh;
@@ -1421,7 +1423,7 @@ nav {
         margin-left: -62vw;
     }
     .div112, .div1123, .div1122{
-        height: 28vh;
+        height: auto;
     }
     .texto33{
         font-size: 1.4rem;
@@ -2122,6 +2124,9 @@ nav {
 }
 
 @media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .bg-modal.fullscreen .bg-image, .bg-modal2.fullscreen .bg-image, .bg-modal3.fullscreen .bg-image {
+        background-size: 80% 100% !important;
+    }
     .slider-frame img{
         height: 100vh;
     }
@@ -2224,7 +2229,7 @@ nav {
         margin-top: 4vh;
     }
     .textott, .textott128{
-        width: 20vw;
+        width: 25vw;
         font-size: 0.8rem;
         margin-left: 5vw;
     }
@@ -2237,25 +2242,25 @@ nav {
         font-size: 1rem;
     }
     .opcaooo2{
-        height: 50vh;
-        width: 20vw;
+        height: 40vh;
+        width: 18vw;
         margin-right: 0;
     }
     .opcaooo22{
-        height: 50vh;
-        width: 20vw;
+        height: 40vh;
+        width: 18vw;
         margin-top: -5vh;
         margin-right: 0;
     }
     .opcaooo3{
-        height: 50vh;
-        width: 20vw;
+        height: 40vh;
+        width: 18vw;
         margin-top: 4vh;
         margin-right: 0;
     }
     .opcaooo, .opcaooox{
-        height: 50vh;
-        width: 20vw;
+        height: 40vh;
+        width: 18vw;
         margin-left: 5vw;
         margin-right: 0;
         margin-top: 5vh;
