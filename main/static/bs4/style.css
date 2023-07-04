@@ -1,9 +1,12 @@
 body {
     overflow-x: hidden;
+    
 }
+
 
 .dentrodoblog {
     width: 100vw;
+    justify-content: center;
     background-image: url(../imagem/Dentrodoblog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,61 +16,68 @@ body {
 .button2x {
     display: inline-block;
     margin-top: 3vh;
-    font-size: 14pt;
+    font-size: 1.5em;
     font-weight: 500;
     color: #41A68E;
     border: 2px solid #41A68E;
     border-radius: 4px;
-    padding: 0.5% 1% 0.5% 1%;
     cursor: pointer;
-    width: 140px;
-    height: 40px;
+    width: 10vw;
+    height: auto;
     font-family: 'GlacialIndifferenceRegular';
-    line-height: 35px; /* Centraliza verticalmente */
+    line-height: 5vh; /* Centraliza verticalmente */
     text-align: center;
     display: flex;
     align-items: center;
+}
+.button2x::before {
+    content: '';
+    flex: 1;
+}
+
+.button2x::after {
+    content: '';
+    flex: 1;
 }
 
 .button2 {
     display: inline-block;
     margin-left: 1vw;
-    margin-top: -3vh;
+    margin-top: 3vh;
     margin-bottom: 3vh;
-    font-size: 14pt;
+    font-size: 1rem;
     font-weight: 500;
     color: #41A68E;
     border: 2px solid #41A68E;
     border-radius: 4px;
-    padding: 0.5% 1% 0.5% 1%;
     cursor: pointer;
-    width: 140px;
-    height: 40px;
+    width: 8vw;
+    height: auto;
     text-align: center;
     font-family: 'GlacialIndifferenceRegular';
-    line-height: 35px; /* Centraliza verticalmente */
+    line-height: 5vh; /* Centraliza verticalmente */
     bottom: 0;
 }
 
 .fixed-bottom-left {
-    position: static;
-    display: flex; /* Alterado para flex */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10vh;
     margin-bottom: 3vh;
-    font-size: 14pt;
-    font-weight: 500;
+    margin-left: auto; /* Centralizar horizontalmente */
+    margin-right: auto; /* Centralizar horizontalmente */
+    font-size: 1.2rem;
     color: #41A68E;
     border: 2px solid #41A68E;
     border-radius: 4px;
     cursor: pointer;
-    text-align: center;
     font-family: 'GlacialIndifferenceRegular';
-    line-height: 35px; /* Centraliza verticalmente */
-    bottom: 0;
-    max-width: 200px; /* Defina a largura máxima desejada */
-    margin-left: 32.5vw;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    outline: none;
 }
 
 
@@ -91,15 +101,12 @@ body {
 
 .button2b {
     display: flex;
-    margin-bottom: -40vh;
-    margin-top: 40vh;
-    font-size: 14pt;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #41A68E;
     background-color: #f8f8f8;
     border: 2px solid #41A68E;
     border-radius: 4px;
-    padding: 0.5% 1% 0.5% 1%;
     cursor: pointer;
     width: auto;
     height: auto;
@@ -115,12 +122,11 @@ body {
 .button22 {
     display: inline-block;
     margin-top: 3px;
-    font-size: 14pt;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #41A68E;
     border: 3px solid #41A68E;
     border-radius: 4px;
-    padding: 0.5% 1% 0.5% 1%;
     cursor: pointer;
     width: 200px;
     height: auto;
@@ -137,24 +143,22 @@ body {
 
 .card-title {
     margin-top: 2vh;
-    font-size: 20pt;
+    font-size: 1.7rem;
     color: #41A68E;
     font-family: 'League Spartan', sans-serif;
 }
 
 .card-title2 {
     margin-top: 2vh;
-    font-size: 20pt;
+    font-size: 1.7rem;
     color: #41A68E;
     font-family: 'League Spartan', sans-serif;
 }
 .card-titlee {
     margin-top: 5vh;
-    font-size: 20pt;
+    font-size: 1.7rem;
     color: #41A68E;
-    justify-content: center;
     text-align: center;
-    align-items: start;
 }
 
 .card-text {
@@ -163,11 +167,12 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-family: 'GlacialIndifferenceRegular';
-    font-size: 20px;
 }
 
 .ajudablog{
-    max-width: 21vw;
+    width: 21vw;
+    font-size: 1rem;
+    font-family: 'GlacialIndifferenceRegular';
 }
 
 .card-textt {
@@ -181,15 +186,15 @@ body {
     margin-left: 27%;
     width: 45%;
     font-family: 'GlacialIndifferenceRegular';
-    font-size: 20px;
 }
 
 .paraotexto {
     width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-left: 18vw;
 }
 
 .redesSociais a {
@@ -197,13 +202,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 55px;
-    width: 55px;
-    margin: 0px 10px 20px 0;
+    height: 9vh;
+    width: 4vw;
+    margin: 0 0.5vw 4vh 0;
     text-decoration: none;
     border-radius: 50%;
     color: white;
-    border: 4px solid white;
+    border: 0.2rem solid white;
     transition: all 0.5s ease;
 }
 
@@ -213,16 +218,21 @@ body {
 }
 
 .redesSociais a i {
-    font-size: 36px;
+    font-size: 2em;
     align-items: center;
-    margin-top: 2px;
+    margin-top: 0.4vh;
 }
 
 .face {
-    margin-right: 4px;
+    margin-right: 0.2vw;
 }
 
 .xdx {
+    margin-top: 5vh;
+}
+
+.xx{
+    font-size: 1.5rem;
     margin-top: 5vh;
 }
 
@@ -250,11 +260,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    margin-left: -14vw;
+    margin-left: -18vw;
 }
 
 .agora {
-    width: 70vw;
+    width: 60vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -264,7 +274,7 @@ body {
 }
 
 .div1 {
-    height: 800px;
+    height: 115vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -273,9 +283,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    width: 100vw;
 }
 
 .blog {
+    width: 100vw;
     height: 130vh;
     display: flex;
     justify-content: center;
@@ -288,7 +300,8 @@ body {
 }
 
 .envios {
-    height: 730px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -300,15 +313,14 @@ body {
 }
 
 .envios input {
-    margin-top: 1px;
-    width: 500px;
-    height: 40px;
+    width: 37vw;
+    height: 7vh;
     font-family: 'GlacialIndifferenceRegular';
     outline: none;
 }
 
 .formulario {
-    margin-right: 500px;
+    margin-right: 38vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -320,11 +332,11 @@ body {
 }
 
 .envios textarea {
-    margin-top: 1px;
-    height: 160px;
-    width: 500px;
+    height: 30vh;
+    width: 37vw;
     font-family: 'GlacialIndifferenceRegular';
     outline: none;
+    resize: none;
 }
 
 .envios textarea::placeholder {
@@ -351,10 +363,12 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    width: 100vw;
 }
 
 .div3 {
     height: 120vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,14 +391,16 @@ body {
     margin-top: 9vh;
 }
 
-.lps {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .slider-frame {
     width: 100vw;
     overflow: hidden;
+    height: 100vh;
+}
+
+.slider-frame img{
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 .slider {
@@ -415,7 +431,7 @@ body {
 
 .manual-navigation {
     position: absolute;
-    width: 47.8vw;
+    width: 48vw;
     display: flex;
     justify-content: end;
     margin-top: 68vh;
@@ -424,8 +440,7 @@ body {
 .manual-btn {
     width: 1.5vw;
     height: 3vh;
-    border: 4px solid #41A68E;
-    padding: 5px;
+    border: 0.3rem solid #41A68E;
     border-radius: 50%;
     cursor: pointer;
     transition: 1s;
@@ -433,7 +448,7 @@ body {
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 1.45vw;
 }
 
 .manual-btn:hover {
@@ -457,10 +472,9 @@ body {
 }
 
 .navigation-auto div {
-    border: 4px solid #41A68E;
+    border: 0.3rem solid #41A68E;
     width: 1.5vw;
     height: 3vh;
-    padding: 5px;
     border-radius: 50%;
     cursor: pointer;
     transition: 1s;
@@ -469,14 +483,14 @@ body {
 
 .navigation-auto {
     position: absolute;
-    width: 47.8vw;
+    width: 48vw;
     margin-top: 68vh;
     display: flex;
     justify-content: end;
 }
 
 .navigation-auto div:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 1.45vw;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
@@ -502,7 +516,6 @@ body {
 .slider-frame .fotos {
     display: flex;
     width: 500%;
-    height: 680px;
     animation: slide 30s infinite;
 }
 
@@ -547,14 +560,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 40px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 .divSer2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 40px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 .divSer3 {
@@ -562,20 +577,22 @@ body {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 .titulomodal {
     display: flex;
     background-color: #18745B;
-    width: 300px;
-    height: 100px;
+    width: 22vw;
+    height: 15vh;
     justify-content: center;
     align-items: center;
 }
 
 .texto {
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'GlacialIndifferenceRegular';
 }
 
@@ -606,7 +623,7 @@ body {
     margin-top: 5vh;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
-    font-size: 45px;
+    font-size: 2.5rem;
 }
 
 .texto333 {
@@ -618,7 +635,7 @@ body {
     margin-top: 5vh;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
-    font-size: 45px;
+    font-size: 2.5rem;
     line-height: 40px;
 }
 
@@ -632,8 +649,7 @@ body {
     margin-bottom: 2vh;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 1.9rem;
 }
 
 .itensdeservico {
@@ -649,15 +665,14 @@ body {
     margin-bottom: 10vh;
     color: #18745B;
     font-family: 'League Spartan', sans-serif;
-    font-size: 65px;
+    font-size: 4.1rem;
 }
 
 .texto4b {
+    margin-top: -25vh;
     display: flex;
-    margin-bottom: 15vh;
-    font-size: 65px;
+    font-size: 4.1rem;
     color: #18745B;
-    margin-top: -55vh;
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -665,22 +680,21 @@ body {
     color: white;
     margin-bottom: 5vh;
     font-family: 'League Spartan', sans-serif;
-    font-size: 60px;
-    margin-left: -2vw;
+    font-size: 3.5rem;
 }
 
 .texto44b {
     color: white;
     margin-bottom: 10vh;
-    font-size: 60px;
+    font-size: 4em;
     font-family: 'League Spartan', sans-serif;
 }
 
 .textott {
     color: black;
-    max-width: 20vw;
+    width: 20vw;
     margin-top: 2vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
     font-family: 'GlacialIndifferenceRegular';
     margin-left: 5vw;
@@ -691,7 +705,7 @@ body {
     color: black;
     width: 25vw;
     margin-top: 2vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
     font-family: 'GlacialIndifferenceRegular';
     margin-left: 10vw;
@@ -702,7 +716,7 @@ body {
     color: black;
     width: 25vw;
     margin-top: 5vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
     font-family: 'GlacialIndifferenceRegular';
     margin-left: 10vw;
@@ -712,7 +726,7 @@ body {
     color: black;
     width: 25vw;
     margin-top: 5vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
     font-family: 'GlacialIndifferenceRegular';
     margin-left: 10vw;
@@ -735,7 +749,7 @@ nav {
 }
 
 .addinicio {
-    border-radius: 5px;
+    border-radius: 0.1rem;
     background-color: #41A68E;
 }
 
@@ -758,64 +772,100 @@ nav {
 #blog:hover {
     background-color: #41A68E;
 }
+.bg-modal.fullscreen, .bg-modal2.fullscreen, .bg-modal3.fullscreen {
+    width: 100vw !important;
+    height: 100vh !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+  
+.bg-modal.fullscreen .bg-image, .bg-modal2.fullscreen .bg-image, .bg-modal3.fullscreen .bg-image {
+    background-size: contain !important;
+    
+}
+  
+.opcao.fullscreen {
+    width: 80vw !important;
+    height: auto !important;
+}
 
+  
+.s1.fullscreen {
+    width: 8vw !important;
+    font-size: 1rem !important;
+}
+  
+.divSer.fullscreen,
+.divSer2.fullscreen,
+.divSer3.fullscreen {
+    margin-left: 1vw !important;
+    margin-right: 1vw !important;
+}
+  
+.titulomodal.fullscreen {
+    width: 20vw !important;
+}
+  
+.textott.fullscreen {
+    width: 18vw !important;
+    margin-left: 1vw !important;
+    margin-right: 1vw !important;
+}
 .bg-modal {
-    width: 70%;
+    width: 90vw;
     height: 80vh;
     position: fixed;
-    margin-top: 6%;
-    margin-left: 50.5vw;
+    margin-top: 10vh;
+    left: 0;
     z-index: 2;
     top: -310vh;
     transition: 350ms;
-    border-radius: 4px;
-    background-image: url(../imagem/subservicos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+    border-radius: 0.1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.bg-modal .bg-image, .bg-modal3 .bg-image,.bg-modal2 .bg-image {
+    background-image: url(../imagem/subservicos.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%; /* Diminui a imagem para 80% do tamanho original */
+    background-position: center center;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 .bg-modal2 {
-    width: 70%;
+    width: 90vw;
     height: 80vh;
     position: fixed;
-    margin-top: 6%;
-    margin-left: 0%;
+    margin-top: 10vh;
+    left: 0;
     z-index: 2;
     top: -310vh;
     transition: 350ms;
-    border-radius: 4px;
-    background-image: url(../imagem/subservicos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+    border-radius: 0.1rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .bg-modal3 {
-    width: 70%;
+    width: 90vw;
     height: 80vh;
     position: fixed;
-    margin-top: 6%;
-    margin-left: -50.5vw;
+    margin-top: 10vh;
+    left: 0;
     z-index: 2;
     top: -310vh;
     transition: 350ms;
-    background-image: url(../imagem/subservicos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
 
     display: flex;
     flex-direction: column;
@@ -824,15 +874,15 @@ nav {
 }
 
 .opcao {
-    width: 300px;
-    height: 300px;
+    width: 22vw;
+    height: 48vh;
     cursor: pointer;
 }
 
 .opcaooo, .opcaooox {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 22vw;
+    height: 48vh;
     cursor: pointer;
     margin-top: 2vh;
     margin-left: auto; /* Centraliza horizontalmente */
@@ -842,8 +892,8 @@ nav {
 .opcaooo2 {
     margin-bottom: -4vh;
     display: flex;
-    width: 290px;
-    height: 290px;
+    width: 22vw;
+    height: 48vh;
     cursor: pointer;
     margin-right: -5vw; /* Centraliza horizontalmente */
 }
@@ -851,28 +901,28 @@ nav {
 .opcaooo22 {
     margin-bottom: -4vh;
     display: flex;
-    width: 290px;
-    height: 290px;
+    width: 21vw;
+    height: 46vh;
     cursor: pointer;
     margin-right: -5vw; /* Centraliza horizontalmente */
 }
 
 .opcaooo3 {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 22vw;
+    height: 48vh;
     cursor: pointer;
     margin-top: 2vh;
     margin-right: -5vw; /* Centraliza horizontalmente */
 }
 
 .close2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     transition: 350ms;
     cursor: pointer;
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 10vh;
+    right: 18vw;
     display: flex;
     border: none; /* Remove a borda */
     background-color: rgba(0, 0, 255, 0);
@@ -886,14 +936,13 @@ nav {
 
 .s1 {
     display: inline-block;
-    width: 120px;
+    width: 10vw;
     height: auto;
-    font-size: 14pt;
+    font-size: 1.2rem;
     font-weight: 500;
     background-color: #fff;
     color: #41A68E;
-    border-radius: 4px;
-    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 0.1rem;
     box-shadow: 2px 3px 0 rgba(0, 34, 8, 0.329);
     cursor: pointer;
     margin-left: 4vw;
@@ -913,13 +962,12 @@ nav {
 
 .ss {
     display: inline-block;
-    font-size: 14pt;
+    font-size: 1.2rem;
     font-weight: 500;
     background-color: white;
     color: #41A68E;
     border: 0px;
-    padding: 0.5% 1% 0.5% 1%;
-    box-shadow: 2px 3px 0 rgba(0, 34, 8, 0.329);
+    box-shadow: 0.4vh 0.6vh 0 rgba(0, 34, 8, 0.329);
     cursor: pointer;
 }
 
@@ -940,14 +988,14 @@ nav {
     position: relative;
     bottom: 0;
     background-color: #18745B;
-    height: 300px;
+    height: 50vh;
+    width: 100vw;
 }
 
 .rowblog {
     margin-left: -2vw;
     display: grid;
     grid-template-columns: repeat(3, 32vw);
-    grid-auto-rows: minmax(600px, auto);
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -960,7 +1008,6 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    height: 200px;
 }
 
 .rowwblog {
@@ -968,15 +1015,11 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 .postagem {
-    margin-top: 150px;
-    margin-right: 25px;
-    margin-left: 25px;
-    width: 400px;
-    height: 200px;
+    margin-right: 1vw;
+    margin-left: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -984,7 +1027,9 @@ nav {
 }
 
 .logonome {
-    margin-top: -20vh;
+    margin-top: -25vh;
+    width: 22vw;
+    height:15vh;
 }
 
 .logodaflorar {
@@ -1013,33 +1058,41 @@ nav {
     justify-content: center;
     margin: auto;
     align-items: center;
-    text-align: justify;
+    text-align: center;
     margin-left: 3vw;
     margin-right: 3vw;
     font-family: 'GlacialIndifferenceRegular';
 }
 
 .hist h10 {
+    margin: 0;
     font-size: 6em;
 }
 
 .hist p {
+    margin: 0;
     font-size: 2em;
 }
 
 .algo {
-    border-bottom: 2px solid #eeeeee;
-    width: 400px;
+    border-bottom: 0.4vh solid #eeeeee;
     font-family: 'League Spartan', sans-serif;
 }
 
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagemblog {
-    margin-left: -3vw;
+    height: auto;
 }
 
 .sliderr {
     width: 60vw;
-    height: 50vw;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -1047,7 +1100,7 @@ nav {
 
 .sliderr3 {
     width: 60vw;
-    height: 50vw;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -1055,7 +1108,7 @@ nav {
 
 .sliderrr {
     width: 60vw;
-    height: 50vw;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -1069,7 +1122,7 @@ nav {
 
 .div112 {
     width: 100vw;
-    height: 30vw;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1079,7 +1132,7 @@ nav {
 
 .div1122 {
     width: 100vw;
-    height: 30vw;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1089,7 +1142,7 @@ nav {
 
 .div1123 {
     width: 100vw;
-    height: 30vw;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1108,2289 +1161,1116 @@ nav {
 .activeee {
     display: block;
 }
-
-
-@media (max-width: 768px) {
-    .texto4,
-    .texto4b {
-        font-size: 45px;
-    }
-    .texto4b{
-        margin-bottom: 10vh;
-    }
-
-    .textott {
-        max-width: none;
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
-    .manual-btn,
-    .navigation-auto div {
-        margin-right: 10px;
-    }
-
-    .navigation-auto {
-        width: 100vw;
-        justify-content: center;
-        margin-top: 0;
-    }
-
-    .texto1,
-    .texto1a {
-        width: 80%;
-        margin-left: 0;
-        text-indent: 0;
-    }
-    .test2 {
-        margin-left: 0;
-    }
-
-    .envios input,
-    .envios textarea {
-        width: 100vw;
-    }
-
-    .formulario {
-        margin-right: 0;
-    }
-
-    .div11,
-    .div45 {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .slider {
-        width: 100vw;
-        height: auto;
-    }
-
-    .slide img {
-        width: 100vw;
-        height: auto;
-    }
-
-    .manual-navigation {
-        width: 100%;
-        justify-content: center;
-        margin-top: 0;
-    }
-    .card-textt {
-        margin-left: 200px;
-        width: 100%;
-    }
-    .paraotexto {
-        font-size: 30px;
-        margin-left: -25.5vw;
-        width: 170%;
-    }
-    .button2{
-        margin-bottom: 3vh;
-
-    }
-    .button2b {
-        display: flex;
-        margin-top: 25vh;
-        font-size: 20pt;
-        font-weight: 500;
-        color: #41A68E;
-        background-color: #f8f8f8;
-        border: 2px solid #41A68E;
-        border-radius: 4px;
-        padding: 0.5% 1% 0.5% 1%;
-        cursor: pointer;
-        width: auto;
-        height: auto;
-        text-align-last: center;
-        font-family: 'GlacialIndifferenceRegular';
-        outline: none;
-    }
-    .button22 {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    .navbar .navbar-nav .nav-item {
-        padding: 8px 15px;
-    }
-    .navbar.test {
-        background-color: transparent;
-    } 
-    .navbar.test .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='6' x2='27' y2='6'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='14' x2='27' y2='14'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='22' x2='27' y2='22'/%3E%3C/svg%3E");
-    }
-    .navbar.test .navbar-toggler {
-        font-size: 90px;
-        transform: scale(1.5);
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-20%);
-    }
-    .navbar.test .navbar-toggler.open {
-        transform: scale(1.5) rotate(90deg);
-    }
-    .navbar.test .navbar-nav {
-        position: fixed;
-        top: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        height: 400vh;
-        width: 50vw;
-        background-color:#41A68E; /* Cor de fundo personalizada */
-        transition: right 0.3s;
-    }
-    .navbar.test .navbar-nav .nav-link {
-        margin-left: -20vw ;
-        font-size: 50px; /* Tamanho da fonte personalizado */
-        padding: 10px;
-        text-decoration: none;
-        width: 10vw;
-    }
-    .ajudablog{
-        max-width: 40vw;
-    }
-
-    .dentrodoblog {
-        width: 100%;
-        height: 250vh;
-        background-image: url(../imagem/blog2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .imagemblog {
-        margin-left: -25.5vw;
-    }
-    .rowblog{
-        margin-right: 5vw;
-    }
-    .div111{
-        height: 100vh;
-    }
-    
-}
-
-@media (max-width: 550px){
-    .button2b {
-        margin-top: 30vh;
-    }
-    .algo{
-        margin-top: -2vh;
-    }
-    .navbar-brand img{
-        width: 70vw;
-        height: auto;
-    }
-    .slider-frame{
-        width: 250vw;
-        height: 70vh;
-        overflow: hidden;
-    }
+@media only screen and (max-width: 1000px) {
     .slider-frame img{
-        height: 70vh;
-    }
-
-    .div111 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        background-image: url(../imagem/nossagentee2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 250vw;
-        overflow: hidden;
-        height: 100vh;
-    }
-
-    .texto33{
-        margin-top: -0.7vh;
-    }
-    .slide img{
-        width: 105.35vw;
-    }
-    .slider {
-        width: 110vw;
-        height: 70vh;
-        overflow: hidden;
-    }
-    .div11 {
-        max-width: 105.35vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10vw;
-        margin-left: -10vw;
-        height: 70vh;
-        margin-top: 20vh;
-    }
-
-    .texto1 {
-        color: white;
-        font-size: 1.5em;
-        margin-right: 10vw;
-        margin-top: 15vh;
-        width: 90vw;
-        text-indent: 4vw;
-        font-family: 'GlacialIndifferenceRegular';
-    }
-    
-    .texto1a {
-        color: white;
-        font-size: 1.5em;
-        margin-right: 10vw;
-        width: 90vw;
-        text-indent: 4vw;
-        font-family: 'GlacialIndifferenceRegular';
-    }
-
-    .div45 {
-        width: 75vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        margin-left: 20vw;
-        margin-bottom: 30vh;
-    }
-    .slides {
-        width: 400%;
-        height: 400px;
-        display: flex;
-    }
-    
-    .slides input {
-        display: none;
-    }
-    .navigation-auto div {
-        border: 4px solid #41A68E;
-        width: 20px;
-        height: 20px;
-        padding: 5px;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: 1s;
-        margin-right: -10vw;
-        bottom: 0;
-    }
-    
-    .navigation-auto {
-        position: absolute;
-        width: 90vw;
-        margin-top: 32vh;
-        display: flex;
-        justify-content: end;
-        margin-left: -30vw;
-    }
-    .manual-navigation {
-        position: absolute;
-        width: 90vw;
-        display: flex;
-        justify-content: end;
-        margin-top: 32vh;
-        margin-left: -30vw;
-    }
-    .manual-btn {
-        width: 20px;
-        height: 20px;
-        border: 4px solid #41A68E;
-        padding: 5px;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: 1s;
-        margin-right: -10vw;
-    }
-    .div3 {
-        width: 250vw;
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../imagem/servicoscel2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin-top: -20vh;
-    }
-    .agora {
-        width: 70vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        align-items: center;
-    }
-
-    .opcao {
-        width: 60vw ;
-        height: 35vh ;
-        cursor: pointer;
-    }
-    
-    .titulomodal {
-        display: flex;
-        background-color: #18745B;
-        width: 60vw;
-        height: 15vh;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .div1 {
-        width: 250vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../imagem/results.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        object-fit: cover;
-    }
-    .hist h10 {
-        font-size: 5em;
-    }
-    
-    .hist p {
-
-        font-size: 1.8em;
-    }
-    
-    .hist {
-        display: flex;
-        flex-direction: column;
-        color: white;
-        justify-content: center;
-        margin: auto;
-        align-items: center;
-        text-align: center;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        font-family: 'GlacialIndifferenceRegular';
-    }
-    .blog {
-        width: 250vw;
-        height: 110vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-image: url(../imagem/blog.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    .envios {
-        width: 250vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../imagem/faleconosco.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    #footer {
-        width: 250vw;
-        position: relative;
-        bottom: 0;
-        background-color: #18745B;
-        height: 35vh;
-    }
-    .texto4, .texto4b{
-        font-size: 4em;
-    }
-    .texto4b{
-        margin-top: -60vh;
-        margin-bottom: 15vh;
-    }
-    .texto44{
-        font-size: 4em;
-        width: 150vw;
-        position: absolute;
-        margin-left: -70vw ;
-        margin-top: -50vh;
-    }
-    .escolha{
-        margin-top: -5vh;
-    }
-    .texto44b {
-        font-size: 4em;
-        margin-left: -60vw;
-    }
-    .envios input {
-        margin-top: 1px;
-        margin-left: -60vw;
-        width: 120vw;
-        height: 5vh;
-        font-family: 'GlacialIndifferenceRegular';
-        outline: none;
-    }
-    .envios textarea {
-        margin-top: 1px;
-        margin-left: -60vw;
-        height: 20vh;
-        width: 120vw;
-        font-family: 'GlacialIndifferenceRegular';
-        outline: none;
-    }
-    .formulario{
-        margin-left: -30vw;
-    }
-    .bg-modal {
-        width: 225vw;
-        height: 65vh;
-        position: fixed;
-        margin-top: 60vh;
-        margin-left: 140vw;
-        z-index: 2;
-        top: -310vh;
-        transition: 100ms;
-        border-radius: 4px;
-        background-image: url(../imagem/subservicosxx.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .bg-modal2 {
-        width: 225vw;
-        height: 65vh;
-        position: fixed;
-        margin-top: 60vh;
-        margin-left: 0vw;
-        z-index: 2;
-        top: -310vh;
-        transition: 350ms;
-        border-radius: 4px;
-        background-image: url(../imagem/subservicos.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .bg-modal3 {
-        width: 225vw;
-        height: 65vh;
-        position: fixed;
-        margin-top: 60vh;
-        margin-right: 90vw;
-        z-index: 2;
-        top: -310vh;
-        transition: 350ms;
-        background-image: url(../imagem/subservicos.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .sliderr {
-        width: 200vw;
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .sliderr3 {
-        width: 200vw;
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .sliderrr {
-        width: 200vw;
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .div1123 {
-        height: 50vh;
-        width: 500vw;
-    }
-    .div112 {
-        height: 50vh;
-        width: 500vw;
-    }
-    .div1122 {
-        height: 50vh;
-        width: 500vw;
-    }
-    .s1 {
-        margin-top: -8vh;
-        width: 25vw;
-        height: 5vh;
-    }
-
-    .botoesservico {
-        display: flex;
-        flex-direction: row;
-        margin-top: 5vh;
-        margin-bottom: -5vh;
-    }
-    .ajudablog{
-        max-width: 55vw;
-        font-size: 1.1em;
-    }
-    .paraotexto {
-        width: 130vw;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        margin-left: 55vw;
-    }
-    .rowwblog {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 5vh;
-        margin-left: 72vw;
-    }
-    .card-titlee {
-        margin-top: 5vh;
-        margin-left: -72vw;
-        font-size: 2.5em;
-        color: #41A68E;
-        justify-content: center;
-        text-align: center;
-        align-items: start;
-    }
-    .rowblog2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        margin-left: -1vw;
-    }
-    .rowblog2 img{
-        width: 60vw;
-        height: 30vh;
-    }
-    .rowblog img{
-        width: 60vw;
-        height: 30vh;
-    }
-    .rowblog {
-        margin-left: 30vw;
-        grid-template-columns: repeat(2, 90vw);
-        grid-auto-rows: minmax(40vh, auto);
-    }
-
-    body {
-        zoom: 40%; /* Defina o valor de zoom desejado, como 80% */
-    }
-    .postagem {
-        margin-left: -7vw;
-        margin-right: -7vw;
-        width: 90vw;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .card-title{
-        font-size: 1.5em;
-    }
-    .card-title2{
-        font-size: 1.5em;
-    }
-    .card-body{
-        max-height: 45vh;
-    }
-    .fixed-bottom-left{
-        font-size: 1.5em;
-        margin-left: 90vw;
-        max-width: 70vw;
-        height: 5vh;
-    }
-    .button2{
-        width: 30vw;
-        height: 4.5vh;
-        margin-top: 10vh;
-        margin-left: 4vw;
-    }
-    .navbar.test .navbar-nav {
-        width: 80vw;
-    }
-    .navbar.test .navbar-nav .nav-link{
-        font-size: 2.5em;
-        margin-left: -32vw;
-    }
-    .textott{
-        width: 65vw;
-        margin-right: 20vw;
-    }
-    .opcaooo2{
-        margin-left: 6vw;
-        margin-top: -3vh;
-        margin-right: 15vw;
-    }
-    .textott12, .textott128, .textott1{
-        margin-top: 2vh;
-        width: 80vw;
-    }
-    .texto3334{
-        margin-top: 0vh;
-
-    }
-    
-}
-
-@media screen and (min-width: 650px) and (max-width: 1024px) {
-
-    .slider-frame{
-        width: 200vw;
-        overflow: hidden;
-    }
-
-    .div111 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        background-image: url(../imagem/quemsomos4.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 200vw;
-        overflow: hidden;
-        height: 100vh;
-    }
-
-    .div11 {
-        width:105.35vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 40vh;
-        height: 70vh;
-    }
-
-    .texto1 {
-        color: white;
-        font-size: 25px;
-        width: 60vw;
-        text-indent: 4vw;
-        font-family: 'GlacialIndifferenceRegular';
-        margin-left: -4vw;
-    }
-    
-    .texto1a {
-        color: white;
-        font-size: 25px;
-        width: 60vw;
-        text-indent: 4vw;
-        font-family: 'GlacialIndifferenceRegular';
-        margin-left: -4vw;
-    }
-
-    .div45 {
-        height: 200px;
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        margin-left: 15vw;
-        margin-bottom: 22vh;
-    }
-    .slider {
-        width: 800px;
-        height: 600px;
-        overflow: hidden;
-    }
-    .slides {
-        width: 400%;
-        height: 400px;
-        display: flex;
-    }
-    
-    .slides input {
-        display: none;
-    }
-    .navigation-auto div {
-        border: 4px solid #41A68E;
-        width: 20px;
-        height: 20px;
-        padding: 5px;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: 1s;
-        margin-right: 30vw;
-        bottom: 0;
-    }
-    
-    .navigation-auto {
-        position: absolute;
-        width: 90vw;
-        margin-top: 44vh;
-        display: flex;
-        justify-content: end;
-        margin-left: 3vw;
-    }
-    .manual-navigation {
-        position: absolute;
-        width: 90vw;
-        display: flex;
-        justify-content: end;
-        margin-top: 44vh;
-        margin-left: 3vw;
-    }
-    
-    .manual-btn {
-        width: 20px;
-        height: 20px;
-        border: 4px solid #41A68E;
-        padding: 5px;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: 1s;
-        margin-right: 30vw;
-    }
-    .div3 {
-        width: 200vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../imagem/servicoss3.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin-top: -20vh;
-    }
-    
-    .div1 {
-        width: 200vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../imagem/resultados2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        object-fit: cover;
-    }
-    .blog {
-        width: 200vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-image: url(../imagem/blog.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    .envios {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../imagem/envios.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    #footer {
-        width: 200vw;
-        position: relative;
-        bottom: 0;
-        background-color: #18745B;
-        height: 35vh;
-    }
-    .texto44b {
-        margin-left: -72vw;
-        margin-bottom: 3vh;
-    }
-    .envios input {
-        margin-top: 1px;
-        margin-left: -72vw;
-        width: 70vw;
-        height: 55px;
-        font-family: 'GlacialIndifferenceRegular';
-        outline: none;
-    }
-    .envios textarea {
-        margin-top: 1px;
-        margin-left: -72vw;
-        height: 170px;
-        width: 70vw;
-        font-family: 'GlacialIndifferenceRegular';
-        outline: none;
-    }
-    .bg-modal {
-        width: 70%;
-        max-height: 55vh;
-        position: fixed;
-        margin-top: 50%;
-        margin-left: 48%;
-        z-index: 2;
-        top: -310vh;
-        transition: 100ms;
-        border-radius: 4px;
-        background-image: url(../imagem/subservicos4.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .bg-modal2 {
-        width: 70%;
-        max-height: 55vh;
-        position: fixed;
-        margin-top: 50%;
-        margin-left: 0%;
-        z-index: 2;
-        top: -310vh;
-        transition: 350ms;
-        border-radius: 4px;
-        background-image: url(../imagem/subservicos4.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .bg-modal3 {
-        width: 70%;
-        max-height: 55vh;
-        position: fixed;
-        margin-top: 50%;
-        margin-right: 48vw;
-        z-index: 2;
-        top: -310vh;
-        transition: 350ms;
-        background-image: url(../imagem/subservicos4.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .sliderr {
-        width: 200vw;
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .sliderr3 {
-        width: 200vw;
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .sliderrr {
-        width: 200vw;
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .div1123 {
-        height: 50vh;
         width: 100vw;
-        margin-left: 49vw;
-        margin-top: -4vh;
+        height: 25vh;
     }
-    .div112 {
-        height: 50vh;
+    .slider-frame, .slider{
+        height: 25vh;
         width: 100vw;
-        margin-left: 49vw;
-        margin-top: -4vh;
     }
-    .div1122 {
-        height: 50vh;
+    .div111, .div3, .div1, .blog, .envios{
+        height: 28vh;
         width: 100vw;
-        margin-left: 49vw;
-        margin-top: -4vh;
-    }
-    .s1 {
-        width: 200px;
-        height: 50px;
-        margin-top: -10vh;
-    }
-
-    .botoesservico {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2vh;
-        margin-bottom: -5vh;
-    }
-    .navbar .navbar-nav .nav-item {
-        padding: 8px 15px;
-    }
-    .test {
-      background-color: rgba(255, 255, 255, 0);
-    }
-    body {
-        zoom: 50%; /* Defina o valor de zoom desejado, como 80% */
-    }
-
-    .texto4, .texto4b, .texto44b {
-        font-size: 80px;
-    }
-
-    .texto44{
-        font-size: 70px;
-        width: 110%;
-    }
-    .card-titlee{
-        font-size: 80px;
-        width: 130vw;
-        margin-left: -32vh;
-    }
-    .button2x{
-        width: 30%;
-        height: 20%;
-        font-size: 30px;
-    }
-    .divSer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 7vw;
-    }
-    
-    .divSer2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 7vw;
-    }
-    
-    .divSer3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-    .textott {
-        width: 50vw;
-        font-size: 23px;
-    }
-
-    .opcaooo{
-        margin-right: 5vw;
-    }
-    .opcaooo2, .opcaooo22, .opcaooo3{
-        display: flex;
-        width: 300px;
-        height: 300px;
-        cursor: pointer;
-        margin-left: 23vw; /* Centraliza horizontalmente */ /* Centraliza horizontalmente */
-    }
-    .opcaooo2{
-        margin-top: -5.5vh;
-        margin-right: -10vw;
-    }
-    .opcaooo22{
-        margin-top: -5vh;
-    }
-    .opcaooo3{
-        margin-top: -0.5vh;
-    }
-    .opcaooox{
-        margin-right: 5vw;
-        margin-top: -0.5vh;
-    }
-    .itensdeservico{
-        margin-left: -35vw;
-        margin-bottom: -30vh;
-        width: 150vw;
-    }
-    .xdx {
-        margin-top: 1vh;
-    }
-    .algo{
-        margin-top: 1vh;
-        font-size: 40px;
-    }
-    .sps{
-        font-size: 20px;
-    }
-    .xx{
-        font-size: 40px;
-    }
-    .redesSociais a{
-        width: 12vw;
-        height: 7.5vh;
-    }
-
-    .redesSociais a i{
-        font-size:3em;
-    }
-    .rowblog2 {
-        margin-right: 0vw;
-    }
-    .rowblog {
-        margin-left: -5vw;
-        grid-template-columns: repeat(3, 55vw);
-    }
-    .card-body {
-        height: 48vh;
-    }
-    .fixed-bottom-left {
-        font-size: 30px;
-        margin-left: 10.5vw;
-        max-width: 50vw;
-        height: 8vh;
-    }
-    .textott1, .textott12, .textott128 {
-        width: 50vw;
-        font-size: 23px;
-        max-width: none;
-        margin-left: 20vw;
-    }
-    .textott12{
-        margin-top: 0vh;
-        width: 55vw;
-    }
-    .textott128{
-        margin-top: 0vh;
-    }
-    .texto3334{
-        margin-top: 4vh;
-    }
-    .textott1{
-        margin-top: 0.5vh;
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 1000px) and (orientation: landscape),
-       only screen and (min-width: 768px) and (max-width: 1000px) and (orientation: landscape) {
-    .div3 {
-        height: 240vh;
-    }
-    .div1{
-        height: 270vh;
-    }
-    .div111 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        background-image: url(../imagem/nossagentecelldeitado.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 100%;
-        overflow: hidden;
-        height: 240vh;
-    }
-    .texto44{
-        margin-top: 3vh;
-        margin-left: 11vw;
-    }
-    .div11 {
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10vw;
-        margin-left: -10vw;
-        margin-bottom: 5vh;
-        height: 70vh;
-    }
-    .slider {
-
-        width: 100vw;
-        height: 600px;
-        overflow: hidden;
-    }
-    
-    .slides {
-        width: 400%;
-        height: 400px;
-        display: flex;
-    }
-    .slide img {
-        width: 70vw;
-        height: auto;
-        margin-left: 25vw;
-    }
-    .navigation-auto {
-        margin-left: 9vw;
-        margin-top: 110vh;
-    }
-    .manual-navigation {
-        margin-left: 9vw;
-        margin-top: 110vh;
-    }
-    .texto1, .texto1a{
-        font-size: 1.6em;
-    }
-    .navbar .navbar-nav .nav-item {
-        padding: 8px 15px;
-    }
-    .navbar.test {
-        background-color: transparent;
-    } 
-    .navbar.test .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='6' x2='27' y2='6'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='14' x2='27' y2='14'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='22' x2='27' y2='22'/%3E%3C/svg%3E");
-    }
-    .navbar.test .navbar-toggler {
-        font-size: 90px;
-        transform: scale(1.5);
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-20%);
-    }
-    .navbar.test .navbar-toggler.open {
-        transform: scale(1.5) rotate(90deg);
-    }
-    .navbar.test .navbar-nav {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        height: 400vh;
-        width: 50vw;
-        background-color:#41A68E; /* Cor de fundo personalizada */
-        transition: right 0.3s;
-    }
-    .navbar.test .navbar-nav .nav-link {
-        margin-left: -20vw ;
-        font-size: 50px; /* Tamanho da fonte personalizado */
-        padding: 10px;
-        text-decoration: none;
-        width: 10vw;
-    }
-    .agora {
-        width: 70vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin-top: 40vh;
-    }
-    .texto4{
-        margin-top: 50vh;
-    }
-    .card-body{
-        height: 140vh;
-    }
-    .texto4b{
-        margin-top: -100vh;
-        margin-bottom: 50vh;
-    }
-    .button2b{
-        font-size: 2em;
-        margin-top: 100vh;
     }
     .blog{
-        height: 280vh;
+        height: 45vh;
+    }
+    .div111{
+        height: 30vh;
+    }
+    .div3{
+        height: 38vh;
     }
     .envios{
-        height: 240vh;
-    }
-    .formulario{
-        margin-left: 60vw;
-        margin-top: 5vh;
-    }
-    .texto44b{
-        margin-bottom: 40vh;
-    }
-    .escolha{
-        margin-top:-20vh;
-    }
-    .bg-modal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 150vw;
-        position: fixed;
-        margin-top: 6%;
-        margin-left: 80vw;
-        z-index: 2;
-        top: -310vh;
-        transition: 350ms;
-        border-radius: 4px;
-    }
-    .logonome{
-        margin-top: -50vh;
-    }
-    .algo{
-        margin-top: 6vh;
-    }
-    .redesSociais a {
-
-        height: 20vh;
-        width: 10vw;
-        text-decoration: none;
-        border-radius: 50%;
-        color: white;
-        border: 4px solid white;
-        transition: all 0.5s ease;
-    }
-    .fixed-bottom-left{
-        margin-top: 30vh;
-        margin-bottom: 30vh;
-        margin-left: 13vw;
-    }
-    .ajudablog{
-        max-width: 28vw;
-    }
-    .rowwblog {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 40px;
-        margin-right: 55vw;
-    }
-    .rowblog2{
-        margin-right: -0.5vw;
-    }
-    .rowblog{
-        margin-left: 3vw;
-    }
-    .card-titlee{
-        margin-left: -35.5vw;
-    }
-    .paraotexto{
-        width: 100vw;
-        margin-left: -13vw;
-    }
-
-}
-@media only screen and (min-width: 1100px) and (max-width: 1200px),
-       only screen and (min-width: 1100px) and (max-width: 1200px) and (orientation: landscape) {
-        .navigation-auto {
-            margin-left: -9vw;
-        }
-        .manual-navigation {
-            margin-left: -9vw;
-        }
-        .rowblog{
-            margin-left: -8vw;
-        }
-        .div45{
-            margin-top: 20vh;
-        }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 530px){
-    .div11{
-        margin-bottom: 18vh;
-    }
-    .texto1, .texto1a{
-        font-size: 1.8em ;
-    }
-    .texto44{
-        margin-bottom: 7vh;
-    }
-    .bg-modal{
-        margin-left: 130vw;
-    }
-    .bg-modal3{
-        margin-right: 82vw;
-    }
-    .opcao{
-        width: 58vw;
-        height: 28vh;
-    }
-    .opcaooo{
-        margin-left: 22vw;
-        width: 70vw;
         height: 35vh;
     }
-    .titulomodal {
-        width: 58vw;
-    }
-    .ajudablog{
-        max-width: 45vw;
-    }
-    .card-body{
-        max-height: 39vh;
-    }
-    .navbar.test .navbar-nav .nav-link{
-        font-size: 3em;
-    }
-
-    .ff{
-        margin-top: 16vh;
-    }
-    .redesSociais a{
-        width: 13vw;
-        height: 6vh;
-    }
-    .fxf{
+    .div11, .slide img{
         margin-top: 4vh;
+        width: 45vw;
+        height: 17vh;
     }
-    .xx{
-        font-size: 2em;
-        margin-top: 4vh;
+    .texto1, .texto1a{
+        margin-left: 1vw;
+        width: 40vw;
+        font-size: 0.65rem;
     }
-    .imagemblog{
-        margin-left: -12vw;
+    .texto1{
+        margin-top: 0vh;
     }
-    .button2x{
+    .texto44, .texto4, .texto4b, .hist h10, .texto44b{
+        font-size: 1.9rem;
+    }
+    .texto4b{
+        margin-top: -7vh;
+        margin-bottom: 0vh;
+    }
+    .texto44{
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-50%);
+        margin-top: -25vh;
+    }
+    .titulomodal{
+        font-size: 1rem;
+    }
+    .hist p{
+        font-size: 0.6rem;
         width: 30vw;
-        height: 5vh;
-        font-size: 1.5em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    .card-title, .card-title2{
-        font-size: 1.5em;
+    .hist{
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
-    .card-text{
+    .opcao{
+        width: 28vw;
+        height: 15vh;
+    }
+    .titulomodal{
+        width: 28vw;
+        height: 7vh;
+    }
+    .texto{
         font-size: 1em;
     }
-    .textott{
-        font-size: 1.6em;
+    .rowblog img, .rowblog2 img{
+        height: 12vh;
+        width: 25vw;
     }
-    .rowblog img{
-        width: 280px;
-        height: 280px;
-    }
-}
-
-@media (max-width: 400px){
-    
-    .slider-frame{
-        height: 100vh;
-    }
-    .slider-frame .fotos{
-        height: 100vh;
-    }
-    .slider-frame .fotos img {
-        height: 100vh;
-    }
-    .div111{
-        height: 120vh ;
-    }
-    .div11{
-        margin-bottom: 60vh;
-    }
-    body {
-        zoom: 50%; /* Defina o valor de zoom desejado, como 80% */
-    }
-    .div3{
-        height: 100vh;
-    }
-    .opcao{
-        width: 60vw;
+    .rowwblog img{
         height: 40vh;
-    }
-    .texto{
-        font-size: 1.5em;
-    }
-    .titulomodal{
-        width: 60vw;
-        height: 15vh;
-    }
-    #footer{
-        height: 40vh;
-    }
-    .card-body{
-        max-height: 45vh;
-    }
-    .blog{
-        height: 100vh;
-    }
-    .button2{
-        margin-top: 12vh;
-        width: 30vw;
+        width: 80vw;
     }
     .card-title, .card-title2{
-        font-size: 1.5em;
-        max-width: 70vw;
-    }
-    .ajudablog{
-        font-size: 1.2em;
-        max-width: 70vw;
-    }
-    .div1{
-        width: 250vw;      
-    }
-    .hist h10{
-        font-size: 5em;
-    }
-    .hist p{
-        font-size: 1.5em;
-        width: 65vw;
-    }
-    .envios, .div1{
-        height: 100vh;
-    }
-
-    .div11{
-        max-width: 600vw;
-        margin-top: 80vh;
-        margin-right: -20vw;
-    }
-    .div45{
-        margin-right: 30vw;
-    }
-    .slide img {
-        width: 100vw;
-        height: 45vh;
-    }
-    .manual-btn{
-        margin-top: 7vh;
-    }
-    .manual-navigation{
-
-        margin-left: -30vw;
-    }
-    .navigation-auto{
-        margin-top: 39vh;
-        margin-left: -30vw;
-    }
-    .texto1, .texto1a{
-        font-size: 1.5em;
-        width: 100vw;
-    }
-    .texto44{
-        margin-left: -150vw;
-        font-size: 4em;
-        width: 150vw;
-        margin-bottom: 25vh;
-    }
-    .opcao{
-        width: 280px;
-        height: 280px;
-    }
-    .titulomodal{
-        width: 280px;
-    }
-    .slider-frame, .div111, .div3, .envios, .blog, #footer{
-        width: 320vw;
-    }
-    .divser, .divser2, .divser3{
-        width: 10vw;
-    }
-    .div1{
-        width: 320vw;
-    }
-    .rowblog2 img, .rowblog img{
-        width: 85vw ;
-        height: 45vh ;
-    }
-    .postagem{
-        margin-left: 5vw ;
-        margin-right: 5vw;
-    }
-    .envios input, .envios textarea {
-        width: 140vw;
-    }
-    body {
-        zoom: 31%; /* Defina o valor de zoom desejado, como 80% */
-    }
-    .formulario{
-        margin-left: -70vw;
-    }
-    .button2b{
-        margin-top: 30vh;
-    }
-    .texto4b{
-        margin-top: -65vh;
-        margin-bottom: 14vh;
-    }
-    .rowwblog{
-        margin-left: 102vw;
-    }
-    .card-titlee{
-        margin-left: -100vw;
-    }
-    .paraotexto{
-        width: 140vw;
-        margin-left: 88vw;
-    }
-}
-
-@media screen and (min-width: 1370px) and (max-width: 1600px) {
-   .slider-frame, .div3, .div1{
-        height: 100vh;
-    }
-   .slider-frame img{
-    height: 100vh;
-    }
-   .texto44{
-    font-size: 5em;
-    width: 40vw;
-   }
-   .card-body{
-    height: 50vh;
-   }
-   .div11{
-    margin-top: -15vh;
-   }
-   .texto1, .texto1a{
-    font-size: 2em;
-   }
-   .texto44{
-    margin-left: 5vw;
-   }
-   .blog{
-    height: 100vh;
-   }
-   .card-body{
-    height: 60vh;
-   }
-   #footer{
-    height: 35vh;
-   }
-   .test2{
-    margin-left: -15vw;
-   }
-   .agora{
-    width: 60vw;
-   }
-   .envios input, .envios textarea{
-    width: 40vw;
-   }
-   .formulario{
-    margin-left: -5vw;
-    margin-top: -4vh;
-   }
-   .bg-modal, .bg-modal2, .bg-modal3{
-    height: 60vh;
-   }
-   .fixed-bottom-left{
-    margin-left: 25vw;
-   }
-   .paraotexto{
-    margin-left: 12vw;
-   }
-   .imagemblog{
-    margin-left: -2.5vw;
-   }
-   .navigation-auto, .manual-navigation{
-    margin-left: 6vw;
-    margin-top: 60vh;
-   }
-}
-@media screen and (min-width: 531px) and (max-width: 600px) {
-    .navigation-auto, .manual-navigation{
-        margin-top: 50vh;
-        margin-left: -35vw;
-    }
-    .div111{
-        height: 120vh;
-    }
-    .rowwblog{
-        margin-left: 89vw;
-    }
-    .card-titlee{
-        margin-left: -89vw;
-    }
-    .paraotexto{
-        margin-left: 58vw;
-    }
-    .button2{
-        margin-top: 20vh;
-    }
-    .ajudablog{
-        width: 40vw;
-    }
-    .texto4b{
-        margin-top: -60vh;
-        margin-bottom: 15vh;
-    }
-    .button2b{
-        margin-top: 40vh;
-    }
-    .texto44{
-        margin-top: -70vh;
-    }
-    .texto1, .texto1a{
-        font-size: 1.7em;
-    }
-    .bg-modal, .bg-modal2, .bg-modal3{
-        height: 100vh;
-    }
-    .opcaooo{
-        width: 300px ;
-        height: 300px ;
-        margin-right: 10vw;
-    }
-    .textott{
-        font-size: 1.7em;
-        width: 80vw;
-        margin-top: 5vh;
-        margin-left: 10vw;
-    }
-    .texto33{
-        margin-left: -12vw;
-        margin-top: 5vh;
-    }
-    .botoesservico{
-        margin-bottom: 10vh;
-    }
-    .sliderrr, .sliderr, .sliderr3 {
-        height: 80vh;
-    }
-    .opcaooo{
-        width: 380px ;
-        height: 380px ;
-        margin-left: 15vw;
-    }
-    .opcao{
-        width: 58vw;
-        height: 28vh;
-    }
-    .titulomodal{
-        width: 280px;
-    }
-    .div1{
-        height: 150vh;
-    }
-    .hist h10{
-        font-size: 8em;
-    }
-    .hist p{
-        font-size: 2.2em;
-    }
-}
-@media screen and (min-width: 350px) and (max-width: 380px) {
-    .texto1, .texto1a{
-        font-size: 1.5em;
-    }
-    .texto44{
-        margin-top: -50vh;
-    }
-    .bg-modal, .bg-modal2, .bg-modal3{
-        margin-top: 120vh;
-        width: 250vw;
-        height: 95vh;
-    }
-    .bg-modal{
-        margin-left: 180vw;
-    }
-    .bg-modal3{
-        margin-right: 135vw;
-    }
-    .botoesservico{
-        margin-top: 15vh;
-    }
-    .titulomodal{
-        margin-top: -10vh;
-    }
-    .opcao{
-        margin-top: 20vh;
-        width: 90vw;
-        height: 55vh;
-    }
-    .titulomodal{
-        margin-top: 0vh;
-        width: 90vw;
-    }
-    .div3, .blog{
-        height: 110vh ;
-    }
-    .postagem{
-        margin-top: 10vh;
-    }
-    .card-body{
-        height: 90vh;
-    }
-    .button2{
-        margin-top: 25vh;
-    }
-    .div1{
-        height: 100vh;
-    }
-    .opcaooo, .opcaooox, .opcaooo2, .opcaooo22, .opcaooo3{
-        width: 80vw;
-        height: 40vh;
-        margin-top: 3vh;
-    }
-    .opcaooo2{
-        width: 90vw;
-    }
-    .opcaooo2, .opcaooo22{
-        margin-top: -1vh;
-        margin-left: -10vw;
-    }
-    .opcaooo3{
-        margin-left: -10vw;
-        margin-top: 0vh;
-    }
-    .itensdeservico{
-        margin-top: 5vh;
-    }
-    .manual-navigation, .navigation-auto{
-        margin-left: -15vw;
-    }
-    .div3{
-        height: 150vh;
-    }
-    .div112, .div1122, .div1123{
-        margin-top: 5vh;
-    }
-    .s1{
-        margin-top: -20vh;
-        width: auto;
-        height: 8vh;
-        font-size: 2em;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-    .sliderr3, .sliderrr, .sliderr{
-        height: 80vh;
-    }
-    .textott, .textott128{
-        margin-left: 30vw;
-        font-size: 1.5em;
-        width: 90vw;
-    }
-    .textott12 {
-        width: 100vw;
-        margin-left: 15vw;
-        font-size: 1.4em;
-        margin-top: 5vh;
-    }
-    .textott1{
-        width: 100vw;
-        margin-top: 5vh;
-        font-size: 1.4em;
-        margin-left: 20vw;
-    }
-}
-
-
-
-@media screen and (min-width: 370px) and (max-width: 375px) {
-    .div11{
-        margin-bottom: 90vh;
-        width: 140vw;
-        height: 120vh;
-    }
-    .slider{
-        width: 140vw;
-        height: 50vh;
-    }
-    .slide img{
-        width: 140vw;
-        height: 50vh;
-    }
-    #footer{
-        height: 48vh;
-    }
-    .div45{
-        margin-left: 70vw;
-        margin-right: -10vw;
-    }
-    .texto44{
-        margin-left: -140vw;
-    }
-    body{
-        zoom:32%;
-    }
-    
-    #footer{
-        height: 55vh;
-    }
-    .rowblog2 img, .rowblog img{
-        width: 75vw;
-        height: 40vh;
-    }
-    .div111, .blog, .envios{
-        height: 120vh;
-    }
-    .div1{
-        height: 140vh;
-    }
-    .texto4b{
-        margin-top: -70vh;
-        margin-bottom: 30vh;
-    }
-    .button2b{
-        margin-top: 40vh;
-    }
-    .envios input{
-        height: 7vh;
-    }
-    .envios textarea{
-        height: 30vh;
-    }
-    .dentrodoblog {
-        width: 250vw;
-        background-image: url(../imagem/Dentrodoblog.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    .paraotexto{
-        margin-left: 54vw;
-    }
-    .imagemblog{
-        width: 150vw;
-        height: 80vh;
-        margin-left: -54vw;
-    }
-    .button2x {
-        font-size: 1.8em;
-        width: 40vw;
-        height: 10vh;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-    .rowblog {
-        display: grid;
-        grid-template-columns: repeat(2, 125vw);
-        grid-auto-rows: minmax(100vh, auto);
-    }
-    .button2{
+        margin-bottom: 0;
+        font-size: 0.61rem ;
         width: 25vw;
-        height: 5vh;
-        text-align: center;
-        display: flex;
-        align-items: center;
+    }
+    .card .mobile-spacing{
+        padding: 0.5rem;
+    }
+    .envios input {
+        width: 50vw;
+        height: 2vh;
+        font-size: 0.5rem;
+        margin-top: 0vh;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -0.7vh;
+    }
+    .envios .formulario input[type="submit"] {
+        position: relative;
+        top: -1vh;
+      }
+    .envios textarea{
+        width: 50vw;
+        height: 10vh;
+        font-size: 0.5rem;
+    }
+    .ajudablog{
+        margin-top: -2vh;
+        font-size: 0.5rem;
+        width: 25vw;
+    }
+    .button2{
+        margin-left: 1.5vw;
+        width: 13vw;
+        margin-top: -55vh;
+        margin-bottom: 2vh;
+        font-size: 0.5rem;
+        height: 2vh;
+        line-height: 1.5vh;
+    }
+    .button2b{
+        font-size: 1rem;
+    }
+    .texto4{
+        margin-top: 6vh;
+        margin-bottom: 2vh;
+    }
+    .texto44b{
+        margin-top: 0vh;
+        margin-bottom: 2vh;
     }
     .logonome {
-        margin-top: -30vh;
-        width: auto;
-        height: 15vh;
-    }
-    .redesSociais a {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        width: 16vw;
-        height: 10vh;
+        margin-top: -14.5vh;
+        width: 30vw;
+        height:6vh;
     }
     .algo{
-        width: 50vw;
+        margin-top: -5vh;
+        width: 45vw;
+        font-size: 0.8rem;
+        border-bottom: 0.2vh solid #eeeeee;
     }
     .sps{
-        font-size: 1.2em;
-    }
-    .xx{
-        margin-top: 10vh;
-        font-size: 2em;
-    }
-    .bg-modal, .bg-modal2, .bg-modal3{
-        height: 85vh;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .div11{
-        width: 200vw;
-        margin-top: 80vh;
-    }
-    #footer{
-        height: 48vh;
-    }
-    .slide img{
-        width: 150vw;
-    }
-    .texto1, .texto1a{
-        margin-left: 50vw;
-        font-size: 1.5em;
-        width: 140vw;
-    }
-    .navigation-auto, .manual-navigation{
-        margin-left: -10vw;
-    }
-    .opcao{
-        width: 90vw ;
-        height: 45vh ;
-    }
-    .titulomodal{
-        width: 90vw ;
-    }
-    .rowblog2 img, .rowblog img{
-        width: 75vw ;
-        height: 30vh;
-    }
-    .button2{
-        margin-top: 25vh;
-        width: 50vw;
-    }
-    .navbar.test .navbar-nav{
-        width: 90vw;
-    }
-    .navbar.test .navbar-nav .nav-link{
-        margin-left: -40vw;
-    }
-    .bg-modal, .bg-modal2, .bg-modal3{
-        height: 100vh;
-        width: 300vw;
-    }
-    .bg-modal{
-        margin-left: 205vw;
-    }
-    .bg-modal3{
-        margin-right: 155vw;
-    }
-    .opcaooo{
-        width: 90vw ;
-        height: 45vh ;
-        margin-right: 10vw;
-    }
-    .textott{
-        font-size: 1.5em;
-        width: 120vw;
-        margin-top: 5vh;
-        margin-left: 10vw;
-    }
-    .texto33{
-        margin-left: -12vw;
-        margin-top: 5vh;
-    }
-    .botoesservico{
-        margin-bottom: 10vh;
-    }
-    .sliderrr, .sliderr, .sliderr3 {
-        height: 100vh;
-        width: 250vw;
-    }
-    .card-body{
-        height: 100vh;
-    }
-    .postagem{
-        margin-top: 10vh;
-    }
-    .rowblog {
-        display: grid;
-        grid-template-columns: repeat(2, 125vw);
-        grid-auto-rows: minmax(90vh, auto);
-    }
-    .fixed-bottom-left{
-        font-size: 1.6em;
-        max-width: 120vw;
-        height: 15vh;
-    }
-    .texto44{
-        margin-top: -45vh;
-    }
-    .paraotexto{
-        width: 200vw;
-        margin-left: 65vw;
-    }
-    .rowwblog{
-        margin-left: 75vw;
-    }
-    .card-titlee{
-        font-size: 3em;
-        margin-left: -60vw;
-    }
-}
-@media screen and (min-width: 350px) and (max-width: 360px) {
-    .texto1, .texto1a{
-        width: 120vw;
-    }
-    .button2{
-        margin-top: 35vh;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-    #footer{
-        height: 45vh;
-    }
-    .div1{
-        height: 130vh;
-    }
-    .blog{
-        height: 130vh;
-    }
-    .button2b{
-        margin-top: 40vh;
-    }
-    .texto4b{
-        margin-bottom: 25vh;
-    }
-    .bg-modal, .bg-modal2, .bg-modal3{
-        margin-top: 100vh;
-    }
-    .bg-modal{
-        margin-left: 180vw;
-    }
-    .bg-modal3{
-        margin-right: 140vw ;
-    }
-    .rowwblog{
-        margin-left: 95vw;
-    }
-    .card-titlee{
-        margin-left: -95vw;
-    }
-    .div11{
-        margin-top: 60vh;
-        margin-right: -10vw;
-    }
-    .div45{
-        margin-right: 40vw;
-    }
-    .slider{
-        height: auto;
-        width: 130vw;
-    }
-    .slide img{
-        height: auto;
-        width: 130vw ;
-    }
-    .manual-navigation{
-        margin-top: 40vh;
-        margin-left: -16vw;
-    }
-    .navigation-auto{
-        margin-top: 47vh;
-        margin-left: -16vw;
-    }
-    .rowblog{
-        margin-left: 5vw;
-        grid-template-columns: repeat(3, 100vw);
-        grid-auto-rows: minmax(600px, auto);
-    }
-    .fixed-bottom-left {
-        width: auto;
-        height: auto;
-        font-size: 2em;
-        margin-left: 120vw;
-    }
-    .sliderr3, .sliderrr, .sliderr{
-        height: 80vh;
-    }
-    .texto33{
-        margin-left: -20vw;
-    }
-}
-
-@media screen and (min-width: 750px) and (max-width: 800px){
-    .navigation-auto, .manual-navigation{
-        margin-top: 50vh;
-    }
-    .div111, .blog{
-        height: 100vh;
-    }
-    .button2{
-        margin-top: 5vh;
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 900px){
-    .div111{
-        height: 100vh;
-    }
-    .div11{
-        width: 90vw;
-        height: 45vh;
-    }
-    .slide img{
-        width: 90vw;
-        height: 45vh;
-    }
-    .slide{
-        width: 90vw;
-        height: 45vh;
-    }
-}
-
-@media screen and (min-width: 1601px) and (max-width: 2000px){
-    .div11{
-        margin-left: 5vw;
-    }
-    .texto1, .texto1a{
-        font-size: 2.5em;
-    }
-    .opcao{
-        width: 25vw;
-        height: 45vh;
-    }
-    .titulomodal{
-        width: 25vw;
-        height: 15vh;
-    }
-    .texto{
-        font-size: 2em;
-    }
-    .button2{
-        font-size: 2em;
-        width: 12vw;
-        margin-top: -15vh;
-    }
-    .button2x{
-        font-size: 2em;
-        width: auto;
-        height: 7vh;
-    }
-    .texto4b{
-        font-size: 5em;
-        margin-bottom: 25vh;
-    }
-    .texto4, .texto44b{
-        font-size: 5em;
-    }
-    .button2b{
-        font-size: 2em;
-    }
-    .card-title, .card-title2{
-        font-size: 2.5em;
-    }
-    .blog, .div1, .envios, .slider-frame, .slider-frame img{
-        height: 100vh;
-    }
-    .bg-modal, .bg-modal2, .bg-modal3{
-        height: 80vh;
-    }
-    .textott, .textott12, .textott128, .textott1{
-        font-size: 2em;
-        width: 25vw;
-    }
-    .itensdeservico{
-        margin-left: 5vw;
-    }
-    .opcaooo, .opcaooo2, .opcaooo22, .opcaooo3, .opcaooox{
-        width: 25vw;
-        height: 45vh;
-    }
-    .rowblog2 img{
-        width: 22.5vw;
-        height: 39vh;
-    }
-    .rowblog img{
-        width: 22.5vw;
-        height: 39vh;
-    }
-    .postagem{
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    .ajudablog{
-        font-size: 1.8em;
-    }
-    .s1{
-        font-size: 2.5em;
-        width: auto;
-        height: auto;
-    }
-    .avs{
+        width: 45vw;
+        font-size: 0.55rem;
         margin-top: 0vh;
     }
+    .redesSociais{
+        margin-left: -2vw;
+        margin-top: -2.5vh;
+    }
+    .algo, .sps{
+        margin-left: -2vw;
+    }
+    .face{
+        margin-right: 1vw;
+    }
+    .redesSociais a{
+        width: 6vw;
+        height: 3vh;
+        border: 0.15rem solid white;
+        margin-bottom: 1vh;
+        margin-top: 1.5vh;
+    }
+    .redesSociais a i {
+        font-size: 0.8rem;
+    }
     #footer{
-        height: 35vh;
+        width: 100vw;
+        height: 20vh;
+    }
+    .xx{
+        font-size: 1rem;
+        margin-top: 0.9vh;
+    }
+    .manual-navigation, .navigation-auto{
+        margin-top: 18vh;
+    }
+    .manual-btn, .navigation-auto div{
+        width: 2vw;
+        height: 1.4vh;
+        border: 0.1rem solid #41A68E;
+    }
+    .ss {
+        margin-top: -3vh;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding: 0vh;
+    }
+    .navbar.test {
+        background-color: transparent;
+    } 
+    .navbar.test .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='6' x2='27' y2='6'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='14' x2='27' y2='14'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='22' x2='27' y2='22'/%3E%3C/svg%3E");
+        margin-top:-6vh ;
+        margin-right: -2vw;
     }
     .navbar-brand img{
-        height: 100px;
+        width:30vw;
+        height:10vh;
+        margin-top:-1.5vh ;
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 2rem;
+        transform: scale(1.5);
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-20%);
+    }
+    .navbar.test .navbar-toggler.open {
+        transform: scale(1.5) rotate(90deg);
+    }
+    .navbar.test .navbar-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+        height: 100vh;
+        width: 40vw;
+        background-color:#41A68E; /* Cor de fundo personalizada */
+        transition: right 0.3s;
+        
+    }
+    .navbar.test .navbar-nav .nav-link {
+        margin: 0.1vh 0; /* Adicione um espaçamento vertical entre os elementos */
+        margin-left: 0;
+        font-size: 1rem; /* Tamanho da fonte personalizado */
+        text-decoration: none;
+        width: 10vw;
+        flex: 1; /* Distribuir espaço igualmente entre os itens */
+        text-align: center; /* Alinhar o texto no centro horizontal */
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* Alinhar os itens no centro horizontal */
+    }
+    .navbar.test .navbar-nav .nav-link#inicio {
+        margin-top: 2vh; /* Aumenta a margem superior do item "Início" */
+    }
+    .bg-modal, .bg-modal2, .bg-modal3{
+        width: 90vw;
+        height: 30vh;
+        margin-top: 28vh;
+        background-size: 50% 50%;
+        
+    }
+    .bg-modal{
+        margin-left: 62vw;
+    }
+    .bg-modal3{
+        margin-left: -62vw;
+    }
+    .div112, .div1123, .div1122{
+        height: 28vh;
+    }
+    .texto33{
+        font-size: 1.4rem;
+    }
+    .textott{
+        width: 30vw;
+        font-size: 0.6rem;
+    }
+    .opcaooo, .opcaooo2, .opcaooo22, .opcaooo3, .opcaooox{
+        height: 15vh;
+        width: 25vw;
+    }
+    .sliderrr, .sliderr, .sliderr3{
+        height: auto;
+    }
+    .s1{
+        font-size: 1rem;
         width: auto;
     }
-    .logonome{
+    .paraotexto{
+        width: 80vw;
+    }
+    .button2x{
         width: 20vw;
     }
+
+}
+@media only screen and (max-width: 380px){
+    .slider-frame, .slider{
+        width: 103vw;
+    }
+    .div111{
+        height: 190px;
+    }
+    .div1{
+        height: 200px;
+    }
+    .div111, .div3, .div1, .blog, .envios, #footer{
+        width: 103vw;
+    }
+    .texto1, .texto1a{
+        width: 35vw;
+        font-size: 0.43rem;
+    }
+    .texto44 {
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-48%);
+        margin-top: -155px;
+    }
+    .div11{
+        margin-right: -4vw;
+    }
+    .texto44, .texto4, .texto44b, .texto4b{
+        font-size: 1.5rem;
+    }
+    .manual-navigation, .navigation-auto{
+        margin-top: 18vh;
+        width: 46vw;
+    }
+    .texto{
+        font-size: 0.7rem;
+    }
+    .card-title, .card-title2{
+        font-size: 0.53rem;
+    }
+    .ajudablog{
+        font-size: 0.4rem;
+    }
+    .button2{
+        margin-top: -53vh;
+    }
+    .button2b{
+        font-size: 0.7rem;
+    }
+    .texto4b{
+        margin-top: -6vh;
+        margin-bottom: -2vh;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -13px;
+    }
+    .envios .formulario textarea {
+        margin-top: -3.6px;
+    }
+    .envios .formulario input[type="submit"] {
+        position: relative;
+        top: -13px;
+    }
+    .logonome{
+        margin-top: -145px;
+    }
+    #footer{
+        height: 180px;
+    }
+    .xx{
+        margin-top: 14px;
+    }
+    .texto1, .texto1a{
+        margin-left: 3vw;
+    }
+    .redesSociais a{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 380px) and (min-height: 700px) and (max-height: 750px){
+    .logonome{
+        margin-top: -19.2vh;
+    }
+    .texto44{
+        margin-top: -22.5vh;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 620px){
+    .div1{
+        height: 30vh;
+    }
+    .hist h10{
+        font-size: 3.5rem;
+    }
+    .hist p{
+        font-size: 1rem;
+    }
+    .texto1{
+        margin-top: -2vh;
+    }
+    .texto1, .texto1a{
+        font-size: 0.75rem;
+    }
+    .logonome{
+        margin-top: -130px;
+    }
+    .algo{
+        font-size: 1.2rem;
+        margin-top: -4.5vh;
+    }
+    .sps{
+        font-size: 0.7rem;
+    }
+    #footer{
+        height: 20vh;
+    }
+    .card-title, .card-title2{
+        font-size: 0.85rem
+    }
+    .ajudablog{
+        font-size: 0.65rem;
+    }
+    .redesSociais{
+        margin-top: -1vh;
+    }
+    .xx{
+        margin-top: 1.9vh;
+    }
+    .redesSociais a i{
+        font-size: 1rem;
+    }
+    .face{
+        margin-left: 0.1rem;
+    }
+    .manual-navigation, .navigation-auto {
+        width: 46.5vw;
+    }
+}
+@media only screen and (max-width: 330px){
+    .texto1, .texto1a{
+        width: 40vw;
+        font-size: 0.37rem;
+    }
+    .slider-frame, .slider{
+        width: 107vw;
+    }
+    .div111, .div3, .div1, .blog, .envios, #footer{
+        width: 107vw;
+    }
+    .ajudablog{
+        font-size: 0.34rem;
+    }
+    .logonome{
+        margin-top: -148px;
+    }
+    .div11{
+        margin-right: 0.2vw;
+    }
+    .card-title, .card-title2{
+        font-size: 0.47rem;
+    }
+    .redesSociais a i{
+        font-size: 0.6rem;
+    }
+    .face{
+        margin-left: 0.2rem;
+    }
+    #footer{
+        height: 180px;
+    }
+    .xx{
+        margin-top: 2vh;
+    }
+    .hist p{
+        font-size: 0.55rem;
+    }
+    .texto{
+        font-size: 0.63rem;
+    }
+    .texto44{
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-46.5%);
+        margin-top: -140px;
+    }
+    .button2b{
+        font-size: 0.5rem;
+    }
+    .div111{
+        height: 170px;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width:750px){
+    .texto1, .texto1a{
+        font-size: 0.9rem;
+    }
+    .texto1{
+        margin-top: -2vh;
+    }
+    .div111{
+        height: 35vh;
+    }
+    .div11, .slide img{
+        height: 19vh;
+        margin-top: 3.5vh;
+    }
+    .texto44, .texto4, .texto4b, .texto44b {
+        font-size: 2.5rem;
+    }
+    .manual-navigation, .navigation-auto{
+        width: 46.5vw;
+        margin-top: 19.5vh;
+    }
+    .div1{
+        height: 34vh;
+    }
+    .hist h10{
+        font-size: 3.5rem;
+    }
+    .hist p{
+        font-size: 1.1rem;
+    }
+    .ajudablog{
+        font-size: 0.78rem;
+    }
+    .card-title, .card-title2{
+        font-size: 1.05rem;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 15vh;
+    }
+    .button2{
+        margin-top: -52vh;
+        margin-left: 0.8vw;
+        font-size: 0.7rem;
+        line-height: 1.6vh;
+    }
+    .logonome{
+        height: 7vh;
+        margin-top: -12.4vh;
+    }
+    .algo{
+        margin-top: -4vh;
+        font-size: 1.5rem;
+    }
+    .redesSociais{
+        margin-top: -1.5vh;
+    }
+    .redesSociais a i{
+        font-size: 1.2rem;
+    }
+    .xx{
+        font-size: 1.2rem;
+    }
+    .face{
+        margin-left: 0.2rem;
+    }
+    .sps{
+        font-size: 0.9rem;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    .texto44{
+        margin-top: -30vh;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width:850px){
+    .texto1, .texto1a{
+        font-size: 1rem;
+    }
+    .texto1{
+        margin-top: -3vh;
+    }
+    .div111{
+        height: 35vh;
+    }
+    .div11, .slide img{
+        height: 19vh;
+        margin-top: 3.5vh;
+    }
+    .texto44, .texto4, .texto4b, .texto44b {
+        font-size: 3rem;
+    }
+    .manual-navigation, .navigation-auto{
+        width: 46.5vw;
+        margin-top: 19.5vh;
+    }
+    .texto{
+        font-size: 1.1rem;
+    }
+    .div1{
+        height: 34vh;
+    }
+    .hist h10{
+        font-size: 3.5rem;
+    }
+    .hist p{
+        font-size: 1.1rem;
+    }
+    .ajudablog{
+        margin-top: -1vh;
+        font-size: 0.8rem;
+    }
+    .card-title, .card-title2{
+        font-size: 1.1rem;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 15vh;
+    }
+    .button2{
+        margin-top: -500px;
+        margin-left: 0.8vw;
+        font-size: 0.7rem;
+        line-height: 1.6vh;
+    }
+    .logonome{
+        height: 7vh;
+        margin-top: -150px;
+    }
+    .algo{
+        margin-top: -4vh;
+        font-size: 1.5rem;
+    }
+    .redesSociais{
+        margin-top: -1.5vh;
+    }
+    .redesSociais a i{
+        font-size: 1.2rem;
+    }
+    .xx{
+        font-size: 1.2rem;
+    }
+    .face{
+        margin-left: 0.2rem;
+    }
+    .sps{
+        font-size: 0.9rem;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    .texto44{
+        margin-top: -30vh;
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width:400px){
+    .slider-frame img{
+        width: 100vw;
+        height: 30vh;
+    }
+    .slider-frame, .slider{
+        height: 30vh;
+        width: 102vw;
+    }
+    .texto44, .texto4, .texto44b, .texto4b{
+        font-size: 1.5rem;
+    }
+    .div111, .div3, .div1, .blog, .envios{
+        width: 102vw;
+    }
+    .texto{
+        font-size: 0.6rem;
+    }
+    .div1{
+        height: 32vh;
+    }
+    .div11{
+        margin-top: 9vh;
+    }
+    .texto1, .texto1a{
+        font-size: 0.5rem;
+    }
+    .div111{
+        height: 220px;
+    }
+    .texto44{
+        margin-top: -24vh;
+    }
+    .button2{
+        margin-top: -52vh;
+    }
+    .card-title, .card-title2{
+        font-size: 0.57rem;
+    }
+    .ajudablog{
+        margin-top: -3.5vh;
+        font-size: 0.45rem ;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 16vh;
+    }
+    .button2b{
+        margin-top: -2vh;
+        font-size: 0.7rem;
+    }
+    .texto4b {
+        margin-top: -6vh;
+        margin-bottom: -2vh;
+    }
+    .logonome{
+        margin-top: -137px;
+        height: 8vh;
+        width: 32vw;
+    }
+    .redesSociais{
+        margin-top: -3vh;
+    }
+    .redesSociais a i{
+        font-size: 0.7rem;
+    }
+    #footer{
+        height: 170px;
+        width: 102vw;
+    }
+    .xx{
+        margin-top: 1.3vh;
+        font-size: 0.9rem;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -1.8vh;
+    }
+    .envios .formulario textarea {
+        margin-top: -0.4vh;
+    }
+    .envios .formulario input[type="submit"] {
+        position: relative;
+        top: -2vh;
+    }
+    .face{
+        margin-left: 1vw;
+    }
+}
+@media only screen and (min-width: 630px) and (max-width:650px){
+    .slider-frame img{
+        height: 75vh;
+    }
+    .slider-frame, .slider{
+        height: 75vh;
+    }
+    .texto44{
+        font-size: 2rem;
+    }
+    .texto4, .texto44b, .texto4b{
+        font-size: 2.5rem;
+    }
+    .hist h10{
+        font-size: 3rem;
+    }
+    .hist p{
+        font-size: 1rem;
+    }
+    .div111, .div3, .div1, .envios{
+        height: 90vh;
+    }
+    .div11, .slider, .slide img{
+        height: 55vh;
+    }
+    .blog{
+        height: 120vh;
+    }
+    #footer{
+        height: 40vh;
+    }
+    .texto1, .texto1a{
+        font-size: 0.83rem;
+    }
+    .texto1{
+        margin-top: 6vh;
+    }
+    .texto44{
+        margin-top: -70vh;
+    }
+    .opcao{
+        height: 45vh;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 45vh;
+    }
+    .titulomodal{
+        height: 15vh;
+    }
+    .div3, .div1{
+        height: 100vh;
+    }
+    .texto4{
+        margin-top: 20vh;
+        margin-bottom: 5vh;
+    }
+    .texto4b{
+        margin-top: -25vh;
+    }
+    .button2{
+        height: 5vh;
+        margin-top: 0vh;
+        font-size: 0.7rem;
+        line-height: 4.5vh;
+    }
+    .card-title, .card-title2{
+        font-size: 0.95rem;
+    }
+    .ajudablog{
+        font-size: 0.7rem;
+    }
+    .button2b{
+        font-size: 0.8rem;
+    }
     .envios input{
-        width: 37vw;
         height: 5vh;
     }
     .envios textarea{
-        width: 37vw;
-        height: 20vh;
+        height: 25vh;
     }
-    .formulario{
-        margin-left:  -8vw;
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -1.8vh;
     }
-    .test{
-        font-size: 2em;
+    #footer{
+        height: 45vh;
     }
-    .texto33{
-        font-size: 4em;
+    .logonome{
+        margin-top: -33vh;
+        height: 10vh;
     }
-    .texto3334{
-        margin-top: 5vh;
-        margin-bottom: -3vh;
-        font-size: 3em;
+    .redesSociais a{
+        width: 4vw;
+        height: 6vh;
     }
-    .opcaooo22, .textott128{
-        margin-top: 7vh;
-    }
-    .opcaooo2{
-        margin-top: 3vh;
-    }
-    .fixed-bottom-left{
-        margin-left: 17.7vw;
-        font-size: 2.5em;
-        max-width: 22vw;
-        height: 8vh;
-    }
-    .dentrodoblog{
-        height: 120vh;
-    }
-    .rowblog{
+    .face{
         margin-left: 1vw;
     }
-    .paraotexto{
-        margin-left: 6.5vw;
-        font-size: 2em;
-    }
-    .card-titlee{
-        font-size: 4em;
-        width: 40vw;
-        margin-left: -6.5vw;
-        justify-content: center;
-        align-items: center;
-    }
     .xx{
-        margin-top: 5vh;
-        font-size: 2em;
-    }
-    .fxf{
-        margin-top: 4vh;
+        margin-top: 4.5vh;
     }
 }
+@media only screen and (min-width: 400px) and (max-width:420px){
+    .texto1, .texto1a{
+        font-size: 0.55rem;
+    }
+    .texto1{
+        margin-top: -1.5vh;
+    }
+    .texto{
+        font-size: 0.75rem;
+    }
+    .logonome{
+        margin-top: -128px;
+    }
+    .button2{
+        margin-top: -52vh;
+    }
+    .div1, .div111{
+        height: 28vh;
+    }
+    .blog{
+        height: 50vh;
+    }
+    .texto44{
+        margin-top: -24vh;
+    }
+    .button2b{
+        font-size: 0.8rem;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -8px;
+    }
+    .envios .formulario textarea{
+        margin-top: -0.4vh;
+    }
+    .envios .formulario input[type="submit"] {
+        top: -2vh;
+    }
+    #footer{
+        height: 170px;
+    }
+    .xx{
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (min-width: 470px) and (max-width:500px){
+    .logonome{
+        margin-top: -110px;
+    }
+}
+@media only screen and (min-width: 390px) and (max-width:400px){
+    .logonome{
+        margin-top: -123px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 320px) and (min-height: 658px) and (max-height: 658px){
+    .logonome{
+        margin-top: -22vh;
+    }
+}
+@media only screen and (min-width: 384px) and (max-width: 384px) and (min-height: 640px) and (max-height: 640px){
+    .texto44{
+        margin-top: -28vh;
+    }
+}
+@media only screen and (min-width: 412px) and (max-width: 412px) and (min-height: 732px) and (max-height: 732px){
+    .div11{
+        height: 55vh;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px){
+    .button2{
+        margin-top: -53vh;
+    }
+    .logonome{
+        margin-top: -120px;
+    }
+}
+@media only screen and (min-width: 412px) and (max-width: 412px) and (min-height: 914px) and (max-height: 914px){
+    .logonome{
+        margin-top: -120px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 320px) and (min-height: 360px) and (max-height: 360px){
+    .slider-frame, .slider-frame img{
+        height: 45vh;
+    }
+    .div3, .envios{
+        height: 60vh;
+    }
+    .blog{
+        height: 70vh;
+    }
+    .div11, .slider{
+        margin-top: 1vh;
+        height: 30vh;
+    }
+    .slide img{
+        height: 25vh;
+    }
+    .opcao{
+        height: 25vh;
+    }
+    .titulomodal{
+        height: 12vh;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 18vh;
+    }
+    .texto4b{
+        margin-top: -18vh;
+        margin-bottom: -5vh ;
+    }
+    .button2{
+        font-size: 0.4rem;
+        height: 3vh;
+        margin-top: -38vh;
+        line-height: 2.5vh;
+    }
+    .envios input{
+        height: 3vh;
+    }
+    .envios textarea{
+        height: 15vh;
+    }
+    .logonome{
+        height: 10vh;
+    }
+    .texto1{
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .slider-frame img{
+        height: 100vh;
+    }
+    .slider-frame, .slider{
+        height: 100vh;
+    }
+    .div111, .envios{
+        height: 120vh;
+    }
+    .blog, .div3, .div1{
+        height: 140vh;
+    }
+    .div11, .slide img{
+        height: 70vh;
+    }
+    .div11{
+        margin-top: 30vh;
+    }
+    .texto44{
+        margin-top: -95vh;
+    }
+    .texto1, .texto1a{
+        font-size: 1rem;
+    }
+    .texto44, .texto4, .texto4b, .texto44b{
+        font-size: 2.5rem;
+    }
+    .hist h10{
+        font-size: 4rem;
+    }
+    .hist p{
+        font-size: 1.4rem;
+    }
+    .opcao{
+        height: 60vh;
+    }
+    .titulomodal{
+        height: 25vh;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 60vh;
+    }
+    .texto4b{
+        margin-top: -40vh;
+    }
+    #footer{
+        height: 220px;
+    }
+    .envios .formulario input{
+        height: 5vh;
+    }
+    .envios .formulario textarea{
+        height: 30vh;
+    }
+    .texto4{
+        margin-top: 25vh;
+    }
+    .button2{
+        font-size: 0.9rem;
+        width: 10vw;
+        height: 6vh;
+        margin-top: 20vh;
+        line-height: 6vh;
+    }
+    .logonome{
+        height: 15vh;
+        margin-top: -135px;
+    }
+    .redesSociais a{
+        height: 15vh;
+    }
+    .redesSociais a i{
+        font-size: 1.5rem;
+    }
+    .face{
+        margin-left: 1vw;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -6px;
+    }
+    .envios .formulario input[type="submit"] {
+        top: -11px;
+    }
+    .manual-navigation, .navigation-auto{
+        margin-top: 65vh;
+    }
+    .manual-btn, .navigation-auto div{
+        height: 5vh;
+    }
+    .card-title, .card-title2{
+        font-size: 1.3rem;
+    }
+    .ajudablog{
+        font-size: 0.9rem;
+    }
+    .algo{
+        font-size: 1.5rem;
+    }
+    .xx{
+        margin-top: 4vh;
+    }
+    .textott, .textott128{
+        width: 20vw;
+        font-size: 0.8rem;
+        margin-left: 5vw;
+    }
+    .textott12, .textott1{
+        width: 20vw;
+        font-size: 0.7rem;
+        margin-left: 5vw;
+    }
+    .texto3334{
+        font-size: 1rem;
+    }
+    .opcaooo2{
+        height: 50vh;
+        width: 20vw;
+        margin-right: 0;
+    }
+    .opcaooo22{
+        height: 50vh;
+        width: 20vw;
+        margin-top: -5vh;
+        margin-right: 0;
+    }
+    .opcaooo3{
+        height: 50vh;
+        width: 20vw;
+        margin-top: 4vh;
+        margin-right: 0;
+    }
+    .opcaooo, .opcaooox{
+        height: 50vh;
+        width: 20vw;
+        margin-left: 5vw;
+        margin-right: 0;
+        margin-top: 5vh;
+    }
+    .sliderrr, .sliderr, .sliderr3{
+        height: 100%;
+    }
+    .close2{
+        right: 22vw;
+    }
+    .botoesservico{
+        margin-bottom: 4vh;
+    }
+    .rowwblog img{
+        height: 80vh;
+        width: 40vw;
+    }
+  }

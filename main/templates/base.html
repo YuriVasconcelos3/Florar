@@ -30,7 +30,7 @@
 <body>
   <nav class="navbar test navbar-expand-lg navbar-light fixed-top" >
         <a class="navbar-brand" href="/index">
-            <img src="{% static 'imagem/logonome.png' %}" alt="Logo" width="150vw" height="80px">
+            <img src="{% static 'imagem/logonome.png' %}" alt="Logo" width="200vw" height="72vh">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,16 +50,22 @@
             <li class="nav-item" >
               <a class="nav-link text-white" id="inicio" href="/index">INÍCIO</a>
               <script>            
-                const inicio = document.querySelector("#inicio");
-  
-                window.addEventListener('scroll', () =>{
-                  if (window.scrollY > 0 && window.scrollY < 650) {
-                    inicio.classList.add('addinicio')
+                window.addEventListener('load', function() {
+                  if (window.innerWidth <= 767) {
+                    return; // Não execute o código JavaScript para dispositivos móveis
                   }
-                  else {
-                    inicio.classList.remove('addinicio')
-                  }
-                })
+
+                  const inicio = document.querySelector("#inicio");
+
+                  window.addEventListener('scroll', () => {
+                    if (window.scrollY > 0 && window.scrollY < 650) {
+                      inicio.classList.add('addinicio');
+                    } else {
+                      inicio.classList.remove('addinicio');
+                    }
+                  });
+                });
+
               </script>        
             </li>
             
@@ -67,16 +73,22 @@
               <a class="nav-link text-white" id="quem" href="/index#quemsomos">NOSSA GENTE</a>
   
               <script>
-                const quem = document.querySelector("#quem");
-            
-                window.addEventListener('scroll', () =>{
-                  if (window.scrollY > 650 && window.scrollY < 1400) {
-                    quem.classList.add('addinicio')
+                window.addEventListener('load', function() {
+                  if (window.innerWidth <= 767) {
+                    return; // Não execute o código JavaScript para dispositivos móveis
                   }
-                  else {
-                    quem.classList.remove('addinicio')
-                  }
-                })
+
+                  const quem = document.querySelector("#quem");
+                  
+                  window.addEventListener('scroll', () =>{
+                    if (window.scrollY > 650 && window.scrollY < 1400) {
+                      quem.classList.add('addinicio');
+                    }
+                    else {
+                      quem.classList.remove('addinicio');
+                    }
+                  });
+                });
               </script> 
   
             </li>
@@ -84,16 +96,23 @@
               <a class="nav-link text-white" id="serv" href="/index#servicos">SERVIÇOS</a>
   
               <script>
-                const serv = document.querySelector("#serv");
-            
-                window.addEventListener('scroll', () =>{
-                  if (window.scrollY > 1400 && window.scrollY < 2700) {
-                    serv.classList.add('addinicio')
+                window.addEventListener('load', function() {
+                  if (window.innerWidth <= 767) {
+                    return; // Não execute o código JavaScript para dispositivos móveis
                   }
-                  else {
-                    serv.classList.remove('addinicio')
-                  }
-                })
+
+                  const serv = document.querySelector("#serv");
+                  
+                  window.addEventListener('scroll', () =>{
+                    if (window.scrollY > 1400 && window.scrollY < 2700) {
+                      serv.classList.add('addinicio');
+                    }
+                    else {
+                      serv.classList.remove('addinicio');
+                    }
+                  });
+                });
+
               </script> 
   
             </li>
@@ -101,32 +120,43 @@
               <a class="nav-link text-white" id="blog" href="/blog">NOSSO BLOG</a>
   
               <script>
-                const blog = document.querySelector("#blog");
-            
-                window.addEventListener('scroll', () =>{
-                  if (window.scrollY > 2700 && window.scrollY < 3700) {
-                    blog.classList.add('addinicio')
+                window.addEventListener('load', function() {
+                  if (window.innerWidth <= 767) {
+                    return; // Não execute o código JavaScript para dispositivos móveis
                   }
-                  else {
-                    blog.classList.remove('addinicio')
-                  }
-                })
+
+                  const blog = document.querySelector("#blog");
+
+                  window.addEventListener('scroll', () => {
+                    if (window.scrollY > 2700 && window.scrollY < 3700) {
+                      blog.classList.add('addinicio');
+                    } else {
+                      blog.classList.remove('addinicio');
+                    }
+                  });
+                });
+
               </script> 
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" id="contat" href="#footer">CONTATOS</a>
   
               <script>
-                const contat = document.querySelector("#contat");
-            
-                window.addEventListener('scroll', () =>{
-                  if (window.scrollY > 3700) {
-                    contat.classList.add('addinicio')
+                window.addEventListener('load', function() {
+                  if (window.innerWidth <= 767) {
+                    return; // Não execute o código JavaScript para dispositivos móveis
                   }
-                  else {
-                    contat.classList.remove('addinicio')
-                  }
-                })
+
+                  const contat = document.querySelector("#contat");
+
+                  window.addEventListener('scroll', () => {
+                    if (window.scrollY > 3700) {
+                      contat.classList.add('addinicio');
+                    } else {
+                      contat.classList.remove('addinicio');
+                    }
+                  });
+                });
               </script> 
             </li>
           </ul>
@@ -148,42 +178,6 @@
 {% block content %}
 {% endblock %}
 
-<footer class="pt-3 my-md-6 pb-0 container-fluid" id="footer">
-    <div class="row">
-        <div class="rodape">
-            <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
-            <img src="{% static 'imagem/logonome.png' %}" width="300px" height="100px" class="logonome"/>
-        </div>
-        <div class="rodape">
-            <div class="col6 col-md xdx">
-                <ul class="list-unstyled text-small">
-                    <h2 class="text-light algo"> INFORMAÇÕES <p>DE CONTATO </p></h2>
-                    <li> <a class="d-block text-light sps" href="https://goo.gl/maps/6KZvoxPSXj44WNrS9" target="_blank">
-                        Rua Dom Manoel, s/n, Dois Irmãos, Recife - PE.<p> Departamento de Ciência Florestal - DCFL / UFRPE</p></a>
-                    </li>
-                    <li><a class="d-block text-light sps"> (81) 99515-0185 </a></li>
-                    <li><a class="d-block text-light sps"> florar.ej@gmail.com </a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="rodape">
-            <div class="redesSociais xdx">
-                <a href="https://www.facebook.com/florarconsultoriaambientaljr/" target="_blank"><i
-                        class="fa fa-facebook face"></i> </a>
-                <a href="https://www.instagram.com/florarconsultoriajr/" target="_blank"><i
-                        class="fa fa-instagram"></i> </a>
-                <a href="https://www.linkedin.com/company/florarjr/?originalSubdomain=br" target="_blank"><i
-                        class="fa fa-linkedin"></i> </a>
-            </div>
-        </div>
-        <div class="rodape">
-            <ul class="list-unstyled text-small">
-                <a class="d-block mb-2 text-light xx">&copy;
-                </a>
-            </ul>
-        </div>
-    </div>
-</footer>
 
 </body>
 

@@ -64,7 +64,6 @@
     </script>
 </head>
 <body>
-
     <section class="slider-frame">
         <div class="fotos">
             <img src="{%static 'imagem/foto1.jpg' %}" alt="">
@@ -72,12 +71,12 @@
             <img src="{%static 'imagem/foto3.jpg' %}" alt="">
             <img src="{%static 'imagem/foto4.jpg' %}" alt="">
             <img src="{%static 'imagem/foto1.jpg' %}" alt="">  
-  
+
         </div>   
     </section>
 
 
-    <div class="div111" width='100%'>
+    <div class="div111" width='100%' id="quemsomos">
         
         <div class="div11">
             <div class="slider">
@@ -161,7 +160,7 @@
         </div>
     </div>
 
-    <div class="div3" width='100%' id="servicos">
+    <div class="div3" width='100vw' id="servicos">
         <h6 class="texto4"> SERVIÇOS</h6>
         <div class="agora">
             <div class="divSer">
@@ -169,134 +168,136 @@
                 <div class="titulomodal">
                     <h7 class="texto">ARBORIZAÇÃO URBANA</h7>
                 </div>
-                    <div class="bg-modal" id="modal">
-                        <button class="close2" onclick="fecharModal1()">&times;</button>
-                        <div class="sliderr3">
-                            <div class="div1123">
-                                <h7 class="texto33">PODA E SUPRESSÃO DE ÁRVORES</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/podaesup.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Buscamos as autorizações ambientais de ambos
-                                        os serviços junto ao órgão ambiental competente,
-                                        de forma que o cliente tenha o mínimo de trabalho
-                                        e menor impacto ambiental.                                                                                                                                                     
-                                    </p>
+                    <div class="bg-modal fullscreen" id="modal">
+                        <div class="bg-image">
+                            <button class="close2" onclick="fecharModal1()">&times;</button>
+                            <div class="sliderr3">
+                                <div class="div1123">
+                                    <h7 class="texto33">PODA E SUPRESSÃO DE ÁRVORES</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/podaesup.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Buscamos as autorizações ambientais de ambos
+                                            os serviços junto ao órgão ambiental competente,
+                                            de forma que o cliente tenha o mínimo de trabalho
+                                            e menor impacto ambiental.                                                                                                                                                     
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="div1123">
+                                    <h7 class="texto33">PLANTIO DE MUDAS</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/plantio.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Fazemos projetos de implantação de árvores
+                                            em ambientes urbanos, como parques industriais,
+                                            áreas verdes urbanas particulares e públicas,
+                                            de forma a escolher a melhor espécie para as
+                                            melhores condições de plantio.                                                                                                                                                    
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="div1123">
+                                    <h7 class="texto33">DENDROCIRURGIA</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/dendrocirurgia.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Oferecemos essa técnica de recuperação fitossanitária
+                                            realizada em árvores que apresentem injúrias ou cavidades
+                                            que comprometam a sua estabilidade, oferecendo risco
+                                            futuro paraas pessoas e espécies vegetais vizinhas.                                                                                                                                                     
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="div1123">
+                                    <h7 class="texto33">COMPENSAÇÃO AMBIENTAL</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/compensacao.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Trabalhamos com esse mecanismo legal que visa
+                                            contrabalancear os impactos ambientais previstos
+                                            ou já ocorridos na implantação de um empreendimento.
+                                            São medidas  a fim de minimizar os impactos sofridos
+                                            direta ou indiretamente em um local.                                                                                                                                                     
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="div1123">
+                                    <h7 class="texto33">LAUDO TÉCNICO</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/laudo.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Documento simplificado descrevendo
+                                            as informações técnicas do local,
+                                            como a existência ou não de cobertura
+                                            vegetal, recursos hídricos e zoneamentos
+                                            de APP (Área de Proteção Permanente),
+                                            além de uma imagem de satélite zoneando a área.                                                                                                                                                       
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="div1123">
-                                <h7 class="texto33">PLANTIO DE MUDAS</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/plantio.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Fazemos projetos de implantação de árvores
-                                        em ambientes urbanos, como parques industriais,
-                                        áreas verdes urbanas particulares e públicas,
-                                        de forma a escolher a melhor espécie para as
-                                        melhores condições de plantio.                                                                                                                                                    
-                                    </p>
-                                </div>
+                            <div class="botoesservico">
+                                <button class="s1" id="prevButton3">Anterior</button>
+                                <button class="s1" id="nextButton3">Próximo</button>
                             </div>
-                            <div class="div1123">
-                                <h7 class="texto33">DENDROCIRURGIA</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/dendrocirurgia.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Oferecemos essa técnica de recuperação fitossanitária
-                                        realizada em árvores que apresentem injúrias ou cavidades
-                                        que comprometam a sua estabilidade, oferecendo risco
-                                        futuro paraas pessoas e espécies vegetais vizinhas.                                                                                                                                                     
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="div1123">
-                                <h7 class="texto33">COMPENSAÇÃO AMBIENTAL</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/compensacao.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Trabalhamos com esse mecanismo legal que visa
-                                        contrabalancear os impactos ambientais previstos
-                                        ou já ocorridos na implantação de um empreendimento.
-                                        São medidas  a fim de minimizar os impactos sofridos
-                                        direta ou indiretamente em um local.                                                                                                                                                     
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="div1123">
-                                <h7 class="texto33">LAUDO TÉCNICO</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/laudo.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Documento simplificado descrevendo
-                                        as informações técnicas do local,
-                                        como a existência ou não de cobertura
-                                        vegetal, recursos hídricos e zoneamentos
-                                        de APP (Área de Proteção Permanente),
-                                        além de uma imagem de satélite zoneando a área.                                                                                                                                                       
-                                    </p>
-                                </div>
-                            </div>
+                            <script type="text/javascript">
+                                var slider3 = document.querySelector('.sliderr3');
+                                var slides3 = document.querySelectorAll('.div1123');
+                                var prevButton3 = document.querySelector('#prevButton3');
+                                var nextButton3 = document.querySelector('#nextButton3');
+
+                                var currentSlide3 = 0; // Índice do slide atual
+
+                                // Função para mostrar o slide atual e ocultar os demais
+                                function showSlide3() {
+                                slides3.forEach(function(slide3) {
+                                    slide3.classList.remove('activee3');
+                                });
+
+                                slides3[currentSlide3].classList.add('activee3');
+                                updateButtonStates3();
+                                }
+
+                                // Verifica e atualiza o estado dos botões de navegação
+                                function updateButtonStates3() {
+                                prevButton3.disabled = currentSlide3 === 0;
+                                nextButton3.disabled = currentSlide3 === slides3.length - 1;
+                                }
+
+                                // Adicione um ouvinte de evento para o botão "Anterior"
+                                prevButton3.addEventListener('click', function() {
+                                previousSlide3();
+                                });
+
+                                // Adicione um ouvinte de evento para o botão "Próximo"
+                                nextButton3.addEventListener('click', function() {
+                                nextSlide3();
+                                });
+
+                                // Função para navegar para o slide anterior
+                                function previousSlide3() {
+                                currentSlide3--;
+                                if (currentSlide3 < 0) {
+                                    currentSlide3 = 0;
+                                }
+                                showSlide3();
+                                }
+
+                                // Função para navegar para o próximo slide
+                                function nextSlide3() {
+                                currentSlide3++;
+                                if (currentSlide3 >= slides3.length) {
+                                    currentSlide3 = slides3.length - 1;
+                                }
+                                showSlide3();
+                                }
+
+                                // Exiba o primeiro slide ao carregar a página
+                                showSlide3();
+
+                            </script>
                         </div>
-                        <div class="botoesservico">
-                            <button class="s1" id="prevButton3">Anterior</button>
-                            <button class="s1" id="nextButton3">Próximo</button>
-                        </div>
-                        <script type="text/javascript">
-                            var slider3 = document.querySelector('.sliderr3');
-                            var slides3 = document.querySelectorAll('.div1123');
-                            var prevButton3 = document.querySelector('#prevButton3');
-                            var nextButton3 = document.querySelector('#nextButton3');
-
-                            var currentSlide3 = 0; // Índice do slide atual
-
-                            // Função para mostrar o slide atual e ocultar os demais
-                            function showSlide3() {
-                            slides3.forEach(function(slide3) {
-                                slide3.classList.remove('activee3');
-                            });
-
-                            slides3[currentSlide3].classList.add('activee3');
-                            updateButtonStates3();
-                            }
-
-                            // Verifica e atualiza o estado dos botões de navegação
-                            function updateButtonStates3() {
-                            prevButton3.disabled = currentSlide3 === 0;
-                            nextButton3.disabled = currentSlide3 === slides3.length - 1;
-                            }
-
-                            // Adicione um ouvinte de evento para o botão "Anterior"
-                            prevButton3.addEventListener('click', function() {
-                            previousSlide3();
-                            });
-
-                            // Adicione um ouvinte de evento para o botão "Próximo"
-                            nextButton3.addEventListener('click', function() {
-                            nextSlide3();
-                            });
-
-                            // Função para navegar para o slide anterior
-                            function previousSlide3() {
-                            currentSlide3--;
-                            if (currentSlide3 < 0) {
-                                currentSlide3 = 0;
-                            }
-                            showSlide3();
-                            }
-
-                            // Função para navegar para o próximo slide
-                            function nextSlide3() {
-                            currentSlide3++;
-                            if (currentSlide3 >= slides3.length) {
-                                currentSlide3 = slides3.length - 1;
-                            }
-                            showSlide3();
-                            }
-
-                            // Exiba o primeiro slide ao carregar a página
-                            showSlide3();
-
-                        </script>
                     </div>
             </div>
 
@@ -305,112 +306,114 @@
                     <div class="titulomodal">
                         <h7 class="texto">EDUCAÇÃO AMBIENTAL</h7>
                     </div>
-                    <div class="bg-modal2" id="modal2">
-                        <button class="close2" onclick="fecharModal2()">&times;</button>
-                        <div class="sliderrr">
-                            <div class="div1122">
-                                <h7 class="texto33">PALESTRAS</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/palestras.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Ministramos aulas e palestras para crianças,
-                                        jovens e adultos, com o objetivo de formar e
-                                        capacitar pessoas sobre os mais diversos
-                                        assuntos de cunho ambiental,
-                                        para conscientização através da boa didática
-                                        e a responsabilidade com cada pessoa envolvida.                                                                                                                                               
-                                    </p>
+                    <div class="bg-modal2 fullscreen" id="modal2">
+                        <div class="bg-image">
+                            <button class="close2" onclick="fecharModal2()">&times;</button>
+                            <div class="sliderrr">
+                                <div class="div1122">
+                                    <h7 class="texto33">PALESTRAS</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/palestras.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Ministramos aulas e palestras para crianças,
+                                            jovens e adultos, com o objetivo de formar e
+                                            capacitar pessoas sobre os mais diversos
+                                            assuntos de cunho ambiental,
+                                            para conscientização através da boa didática
+                                            e a responsabilidade com cada pessoa envolvida.                                                                                                                                               
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="div1122">
+                                    <h7 class="texto33">ATIVIDADES DE CAMPO</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/atividadeemcampo.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Buscamos transmitir conhecimento de forma
+                                            prática e diversa, elaborando atividades
+                                            em campo, como oficinas e demais práticas
+                                            coletivas, que estimulam a educação ambiental
+                                            através do contato com a natureza.                                                                                                                                                        
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="div1122">
+                                    <h7 class="texto33">DINÂMICAS</h7>
+                                    <div class="itensdeservico">
+                                        <img src="{%static 'imagem/dinamicas.jpg' %}" class="opcaooo">
+                                        <p class="textott">
+                                            Realizamos atividades recreativas,
+                                            temáticas ou não, para empresas, escolas,
+                                            ONGs e sociedade no geral, com o objetivo de
+                                            despertar a consciência ambiental,
+                                            destacando a importância do aumento de
+                                            práticas sustentáveis e a redução dos danos
+                                            ambientais.                                                                                                                                                         
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="div1122">
-                                <h7 class="texto33">ATIVIDADES DE CAMPO</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/atividadeemcampo.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Buscamos transmitir conhecimento de forma
-                                        prática e diversa, elaborando atividades
-                                        em campo, como oficinas e demais práticas
-                                        coletivas, que estimulam a educação ambiental
-                                        através do contato com a natureza.                                                                                                                                                        
-                                    </p>
-                                </div>
+                            <div class="botoesservico">
+                                <button class="s1" id="prevButton2">Anterior</button>
+                                <button class="s1" id="nextButton2">Próximo</button>
                             </div>
-                            <div class="div1122">
-                                <h7 class="texto33">DINÂMICAS</h7>
-                                <div class="itensdeservico">
-                                    <img src="{%static 'imagem/dinamicas.jpg' %}" class="opcaooo">
-                                    <p class="textott">
-                                        Realizamos atividades recreativas,
-                                        temáticas ou não, para empresas, escolas,
-                                        ONGs e sociedade no geral, com o objetivo de
-                                        despertar a consciência ambiental,
-                                        destacando a importância do aumento de
-                                        práticas sustentáveis e a redução dos danos
-                                        ambientais.                                                                                                                                                         
-                                    </p>
-                                </div>
-                            </div>
+                            <script type="text/javascript">
+                                var slider2 = document.querySelector('.sliderrr');
+                                var slides2 = document.querySelectorAll('.div1122');
+                                var prevButton2 = document.querySelector('#prevButton2');
+                                var nextButton2 = document.querySelector('#nextButton2');
+
+                                var currentSlide2 = 0; // Índice do slide atual
+
+                                // Função para mostrar o slide atual e ocultar os demais
+                                function showSlide2() {
+                                slides2.forEach(function (slide2) {
+                                    slide2.classList.remove('activeee');
+                                });
+
+                                slides2[currentSlide2].classList.add('activeee');
+                                updateButtonStates2();
+                                }
+
+                                // Verifica e atualiza o estado dos botões de navegação
+                                function updateButtonStates2() {
+                                prevButton2.disabled = currentSlide2 === 0;
+                                nextButton2.disabled = currentSlide2 === slides2.length - 1;
+                                }
+
+                                // Adicione um ouvinte de evento para o botão "Anterior"
+                                prevButton2.addEventListener('click', function () {
+                                previousSlide2();
+                                });
+
+                                // Adicione um ouvinte de evento para o botão "Próximo"
+                                nextButton2.addEventListener('click', function () {
+                                nextSlide2();
+                                });
+
+                                // Função para navegar para o slide anterior
+                                function previousSlide2() {
+                                currentSlide2--;
+                                if (currentSlide2 < 0) {
+                                    currentSlide2 = 0;
+                                }
+                                showSlide2();
+                                }
+
+                                // Função para navegar para o próximo slide
+                                function nextSlide2() {
+                                currentSlide2++;
+                                if (currentSlide2 >= slides2.length) {
+                                    currentSlide2 = slides2.length - 1;
+                                }
+                                showSlide2();
+                                }
+
+                                // Exiba o primeiro slide ao carregar a página
+                                showSlide2();
+
+                            </script>
                         </div>
-                        <div class="botoesservico">
-                            <button class="s1" id="prevButton2">Anterior</button>
-                            <button class="s1" id="nextButton2">Próximo</button>
-                        </div>
-                        <script type="text/javascript">
-                            var slider2 = document.querySelector('.sliderrr');
-                            var slides2 = document.querySelectorAll('.div1122');
-                            var prevButton2 = document.querySelector('#prevButton2');
-                            var nextButton2 = document.querySelector('#nextButton2');
-
-                            var currentSlide2 = 0; // Índice do slide atual
-
-                            // Função para mostrar o slide atual e ocultar os demais
-                            function showSlide2() {
-                            slides2.forEach(function (slide2) {
-                                slide2.classList.remove('activeee');
-                            });
-
-                            slides2[currentSlide2].classList.add('activeee');
-                            updateButtonStates2();
-                            }
-
-                            // Verifica e atualiza o estado dos botões de navegação
-                            function updateButtonStates2() {
-                            prevButton2.disabled = currentSlide2 === 0;
-                            nextButton2.disabled = currentSlide2 === slides2.length - 1;
-                            }
-
-                            // Adicione um ouvinte de evento para o botão "Anterior"
-                            prevButton2.addEventListener('click', function () {
-                            previousSlide2();
-                            });
-
-                            // Adicione um ouvinte de evento para o botão "Próximo"
-                            nextButton2.addEventListener('click', function () {
-                            nextSlide2();
-                            });
-
-                            // Função para navegar para o slide anterior
-                            function previousSlide2() {
-                            currentSlide2--;
-                            if (currentSlide2 < 0) {
-                                currentSlide2 = 0;
-                            }
-                            showSlide2();
-                            }
-
-                            // Função para navegar para o próximo slide
-                            function nextSlide2() {
-                            currentSlide2++;
-                            if (currentSlide2 >= slides2.length) {
-                                currentSlide2 = slides2.length - 1;
-                            }
-                            showSlide2();
-                            }
-
-                            // Exiba o primeiro slide ao carregar a página
-                            showSlide2();
-
-                        </script>
                     </div>
             </div>
 
@@ -419,144 +422,146 @@
                 <div class="titulomodal">
                     <h7 class="texto">SILVICULTURA E MANEJO FLORESTAL</h7>
                 </div>
-                <div class="bg-modal3" id="modal3">
-                    <button class="close2" onclick="fecharModal3()">&times;</button>
-                    <div class="sliderr">
-                        <div class="div112">
-                            <h7 class="texto33">INVENTÁRIO FLORESTAL</h7>
-                            <div class="itensdeservico">
-                                <img src="{%static 'imagem/Inventario.jpg' %}" class="opcaooo">
-                                <p class="textott">
-                                    Fazemos o levantamento e acompanhamento de áreas 
-                                    florestais naturais ou plantadas, para obtenção de informações
-                                    sobre as características qualitativas e quantitativas da vegetação
-                                    arbórea e/ou arbustiva-arbórea.                                                                                                                                                      
-                                </p>
+                <div class="bg-modal3 fullscreen" id="modal3">
+                    <div class="bg-image">
+                        <button class="close2" onclick="fecharModal3()">&times;</button>
+                        <div class="sliderr">
+                            <div class="div112">
+                                <h7 class="texto33">INVENTÁRIO FLORESTAL</h7>
+                                <div class="itensdeservico">
+                                    <img src="{%static 'imagem/Inventario.jpg' %}" class="opcaooo">
+                                    <p class="textott">
+                                        Fazemos o levantamento e acompanhamento de áreas 
+                                        florestais naturais ou plantadas, para obtenção de informações
+                                        sobre as características qualitativas e quantitativas da vegetação
+                                        arbórea e/ou arbustiva-arbórea.                                                                                                                                                      
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="div112">
+                                <h7 class="texto33">ANÁLISE DE SOLO</h7>
+                                <div class="itensdeservico">
+                                    <img src="{%static 'imagem/analise.jpg' %}" class="opcaooox">
+                                    <p class="textott">
+                                        É um método de diagnóstico dos índices de fertilidade do solo.
+                                        É feita através de pequenas porções (amostras) de uma área maior,
+                                        e é o principal modo de saber se determinado terreno é adequado para
+                                        a cultura pretendida, auxiliando no aumento da produtividade.                                                                                                                                                      
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="div112">
+                                <h7 class="texto33">PLANO DE MANEJO FLORESTAL</h7>
+                                <div class="itensdeservico">
+                                    <img src="{%static 'imagem/planodemanejo.jpg' %}" class="opcaooo">
+                                    <p class="textott">
+                                        Produzimos documentos técnicos para estabelecer o zoneamento
+                                        e as normas que devem presidir o uso da área e o manejo dos
+                                        recursos naturais, inclusive a implantação das estruturas
+                                        físicas necessárias à sua gestão.                                                                                                                                                     
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="div112">
+                                <h7 class="texto3334">PLANEJAMENTO E MANEJO DE</br> FLORESTAS PLANTADAS</h7>
+                                <div class="itensdeservico">
+                                    <img src="{%static 'imagem/planejamento.jpg' %}" class="opcaooo2">
+                                    <p class="textott12">
+                                        Auxiliamos o produtor rural que deseja implantar
+                                        povoamentos florestais puros ou sistemas agrossilviculturais,
+                                        ou que necessite de intervenções em plantios já estabelecidos,
+                                        elaborando projetos de implantação e manejo florestal minimizando
+                                        custos e maximiza a produtividade de maneira sustentável.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="div112">
+                                <h7 class="texto3334">PROJETO DE RECUPERAÇÃO DE</br> ÁREAS DEGRADADAS</h7>
+                                <div class="itensdeservico">
+                                    <img src="{%static 'imagem/projetorecupera.jpg' %}" class="opcaooo22">
+                                    <p class="textott128">
+                                        Realizamos o estudo do PRAD quando solicitado pelos
+                                        órgãos ambientais como parte integrante do processo
+                                        de licenciamento de atividades degradadoras ou modificadoras
+                                        do meio ambiente. E também após o empreendimento ser punido
+                                        administrativamente.                                                                                                                                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="div112">
+                                <h7 class="texto33">PLANEJAMENTO DE SAF'S</h7>
+                                <div class="itensdeservico">
+                                    <img src="{%static 'imagem/safs.jpg' %}" class="opcaooo3">
+                                    <p class="textott1">
+                                        Os Sistemas Agroflorestais (SAF's) são formas de uso ou manejo da terra,
+                                        nos quais se combinam espécies arbóreas com cultivos agrícolas, promovendo
+                                        benefícios econômicos e ecológicos. Os SAF's diversificam a produção,
+                                        além de auxiliar na conservação dos solos, das microbacias e áreas florestais.                                                                                                                                                     
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="div112">
-                            <h7 class="texto33">ANÁLISE DE SOLO</h7>
-                            <div class="itensdeservico">
-                                <img src="{%static 'imagem/analise.jpg' %}" class="opcaooox">
-                                <p class="textott">
-                                    É um método de diagnóstico dos índices de fertilidade do solo.
-                                    É feita através de pequenas porções (amostras) de uma área maior,
-                                    e é o principal modo de saber se determinado terreno é adequado para
-                                    a cultura pretendida, auxiliando no aumento da produtividade.                                                                                                                                                      
-                                </p>
-                            </div>
+                        <div class="botoesservico">
+                            <button class="s1" id="prevButton">Anterior</button>
+                            <button class="s1" id="nextButton">Próximo</button>
                         </div>
-                        <div class="div112">
-                            <h7 class="texto33">PLANO DE MANEJO FLORESTAL</h7>
-                            <div class="itensdeservico">
-                                <img src="{%static 'imagem/planodemanejo.jpg' %}" class="opcaooo">
-                                <p class="textott">
-                                    Produzimos documentos técnicos para estabelecer o zoneamento
-                                    e as normas que devem presidir o uso da área e o manejo dos
-                                    recursos naturais, inclusive a implantação das estruturas
-                                    físicas necessárias à sua gestão.                                                                                                                                                     
-                                </p>
-                            </div>
-                        </div>
-                        <div class="div112">
-                            <h7 class="texto3334">PLANEJAMENTO E MANEJO DE</br> FLORESTAS PLANTADAS</h7>
-                            <div class="itensdeservico">
-                                <img src="{%static 'imagem/planejamento.jpg' %}" class="opcaooo2">
-                                <p class="textott12">
-                                    Auxiliamos o produtor rural que deseja implantar
-                                    povoamentos florestais puros ou sistemas agrossilviculturais,
-                                    ou que necessite de intervenções em plantios já estabelecidos,
-                                    elaborando projetos de implantação e manejo florestal minimizando
-                                    custos e maximiza a produtividade de maneira sustentável.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="div112">
-                            <h7 class="texto3334">PROJETO DE RECUPERAÇÃO DE</br> ÁREAS DEGRADADAS</h7>
-                            <div class="itensdeservico">
-                                <img src="{%static 'imagem/projetorecupera.jpg' %}" class="opcaooo22">
-                                <p class="textott128">
-                                    Realizamos o estudo do PRAD quando solicitado pelos
-                                    órgãos ambientais como parte integrante do processo
-                                    de licenciamento de atividades degradadoras ou modificadoras
-                                    do meio ambiente. E também após o empreendimento ser punido
-                                    administrativamente.                                                                                                                                                        
-                                </p>
-                            </div>
-                        </div>
-                        <div class="div112">
-                            <h7 class="texto33">PLANEJAMENTO DE SAF'S</h7>
-                            <div class="itensdeservico">
-                                <img src="{%static 'imagem/safs.jpg' %}" class="opcaooo3">
-                                <p class="textott1">
-                                    Os Sistemas Agroflorestais (SAF's) são formas de uso ou manejo da terra,
-                                    nos quais se combinam espécies arbóreas com cultivos agrícolas, promovendo
-                                    benefícios econômicos e ecológicos. Os SAF's diversificam a produção,
-                                    além de auxiliar na conservação dos solos, das microbacias e áreas florestais.                                                                                                                                                     
-                                </p>
-                            </div>
-                        </div>
+                        <script type="text/javascript">
+                            var slider = document.querySelector('.sliderr');
+                            var slides = document.querySelectorAll('.div112');
+                            var prevButton = document.querySelector('#prevButton');
+                            var nextButton = document.querySelector('#nextButton');
+
+                            var currentSlide = 0; // Índice do slide atual
+
+                            // Função para mostrar o slide atual e ocultar os demais
+                            function showSlide() {
+                            slides.forEach(function(slide) {
+                                slide.classList.remove('activee');
+                            });
+
+                            slides[currentSlide].classList.add('activee');
+                            updateButtonStates();
+                            }
+
+                            // Verifica e atualiza o estado dos botões de navegação
+                            function updateButtonStates() {
+                            prevButton.disabled = currentSlide === 0;
+                            nextButton.disabled = currentSlide === slides.length - 1;
+                            }
+
+                            // Adicione um ouvinte de evento para o botão "Anterior"
+                            prevButton.addEventListener('click', function() {
+                            previousSlide();
+                            });
+
+                            // Adicione um ouvinte de evento para o botão "Próximo"
+                            nextButton.addEventListener('click', function() {
+                            nextSlide();
+                            });
+
+                            // Função para navegar para o slide anterior
+                            function previousSlide() {
+                            currentSlide--;
+                            if (currentSlide < 0) {
+                                currentSlide = 0;
+                            }
+                            showSlide();
+                            }
+
+                            // Função para navegar para o próximo slide
+                            function nextSlide() {
+                            currentSlide++;
+                            if (currentSlide >= slides.length) {
+                                currentSlide = slides.length - 1;
+                            }
+                            showSlide();
+                            }
+
+                            // Exiba o primeiro slide ao carregar a página
+                            showSlide();
+
+                        </script>
                     </div>
-                    <div class="botoesservico">
-                        <button class="s1" id="prevButton">Anterior</button>
-                        <button class="s1" id="nextButton">Próximo</button>
-                    </div>
-                    <script type="text/javascript">
-                        var slider = document.querySelector('.sliderr');
-                        var slides = document.querySelectorAll('.div112');
-                        var prevButton = document.querySelector('#prevButton');
-                        var nextButton = document.querySelector('#nextButton');
-
-                        var currentSlide = 0; // Índice do slide atual
-
-                        // Função para mostrar o slide atual e ocultar os demais
-                        function showSlide() {
-                        slides.forEach(function(slide) {
-                            slide.classList.remove('activee');
-                        });
-
-                        slides[currentSlide].classList.add('activee');
-                        updateButtonStates();
-                        }
-
-                        // Verifica e atualiza o estado dos botões de navegação
-                        function updateButtonStates() {
-                        prevButton.disabled = currentSlide === 0;
-                        nextButton.disabled = currentSlide === slides.length - 1;
-                        }
-
-                        // Adicione um ouvinte de evento para o botão "Anterior"
-                        prevButton.addEventListener('click', function() {
-                        previousSlide();
-                        });
-
-                        // Adicione um ouvinte de evento para o botão "Próximo"
-                        nextButton.addEventListener('click', function() {
-                        nextSlide();
-                        });
-
-                        // Função para navegar para o slide anterior
-                        function previousSlide() {
-                        currentSlide--;
-                        if (currentSlide < 0) {
-                            currentSlide = 0;
-                        }
-                        showSlide();
-                        }
-
-                        // Função para navegar para o próximo slide
-                        function nextSlide() {
-                        currentSlide++;
-                        if (currentSlide >= slides.length) {
-                            currentSlide = slides.length - 1;
-                        }
-                        showSlide();
-                        }
-
-                        // Exiba o primeiro slide ao carregar a página
-                        showSlide();
-
-                    </script>
                 </div>
             </div>
         </div>
@@ -587,7 +592,7 @@
         <button class="button2b" onclick="redirecionar()">ACESSE NOSSO BLOG</button>
         <script>
             function redirecionar() {
-              window.location.href = '/blog/';
+            window.location.href = '/blog/';
             }
         </script>
     </div>
@@ -595,7 +600,7 @@
     <div class="envios">
         <div class="formulario">
             <h11 class="texto44b "> FALE CONOSCO</h11>
-            <form method="POST" enctype="text/plain" class="escolha"> 
+            <form method="POST" enctype="text/plain"> 
                 <div>
                     <input type="text" class="sss" placeholder="NOME: " required name="nome"/>
                 </div>
@@ -614,6 +619,42 @@
             </form>
         </div>
     </div>
+    <footer class="pt-3 my-md-6 pb-0 container-fluid" id="footer">
+        <div class="row">
+            <div class="rodape">
+                <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
+                <img src="{% static 'imagem/logonome.png' %}" class="logonome"/>
+            </div>
+            <div class="rodape">
+                <div class="col6 col-md xdx">
+                    <ul class="list-unstyled text-small">
+                        <h2 class="text-light algo"> INFORMAÇÕES <p>DE CONTATO </p></h2>
+                        <li> <a class="d-block text-light sps" href="https://goo.gl/maps/6KZvoxPSXj44WNrS9" target="_blank">
+                            Rua Dom Manoel, s/n, Dois Irmãos, Recife - PE.<p> Departamento de Ciência Florestal - DCFL / UFRPE</p></a>
+                        </li>
+                        <li><a class="d-block text-light sps"> (81) 99515-0185 </a></li>
+                        <li><a class="d-block text-light sps"> florar.ej@gmail.com </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rodape">
+                <div class="redesSociais xdx">
+                    <a href="https://www.facebook.com/florarconsultoriaambientaljr/" target="_blank"><i
+                            class="fa fa-facebook face"></i> </a>
+                    <a href="https://www.instagram.com/florarconsultoriajr/" target="_blank"><i
+                            class="fa fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/company/florarjr/?originalSubdomain=br" target="_blank"><i
+                            class="fa fa-linkedin"></i> </a>
+                </div>
+            </div>
+            <div class="rodape">
+                <ul class="list-unstyled text-small">
+                    <a class="d-block mb-2 text-light xx">&copy;
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 {% endblock %}

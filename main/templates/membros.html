@@ -20,7 +20,7 @@
 </head>
 <body>
 
-  <div class="container py-5">
+  <div class="container py-4">
 
           
     <div class="rowblog2">
@@ -29,11 +29,11 @@
       <div class="postagem">
 
         <div class="card">
-          <div class="card-body">
-            <img src="{{ post.image.url }}" height="300px" width="300px">
+          <div class="card-body mobile-spacing">
+            <img src="{{ post.image.url }}" height="300vh" width="300vw">
             <h5 class="card-title"> {{ post.title|slice:":20" }}... </h5>
             <div class="ajudablog">
-              <p class="card-text">{{ post.content|truncatewords:10|safe }}</p>
+              <p class="card-text">{{ post.content|truncatewords:15|safe }}</p>
             </div>       
           
           </div>

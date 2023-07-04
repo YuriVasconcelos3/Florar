@@ -31,9 +31,9 @@
             {% for post in post_list %}
             <div class="postagem">
               <div class="card">
-                <div class="card-body">
-                  <img src="{{ post.image.url }}" height="300px" width="300px">
-                  <h5 class="card-title2"> {{ post.title|slice:":20" }}... </h5>
+                <div class="card-body mobile-spacing">
+                  <img src="{{ post.image.url }}" height="300vh" width="300vw">
+                  <h5 class="card-title"> {{ post.title|slice:":20" }}... </h5>
                   <div class="ajudablog">
                     <p class="card-text">{{ post.content|truncatewords:10|safe }}</p>
                   </div>
@@ -55,7 +55,6 @@
       
     </div>
   </div>
-  
 </body>
 
 
