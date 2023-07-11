@@ -1363,7 +1363,7 @@ nav {
     }
     .navbar-brand img{
         width:30vw;
-        height:10vh;
+        height:8vh;
         margin-top:-1.5vh ;
     }
     .navbar.test .navbar-toggler {
@@ -1504,7 +1504,7 @@ nav {
         margin-bottom: -2vh;
     }
     .envios .formulario div:nth-child(-n+3) {
-        margin-top: -13px;
+        margin-top: -10px;
     }
     .envios .formulario textarea {
         margin-top: -3.6px;
@@ -1517,10 +1517,10 @@ nav {
         margin-top: -145px;
     }
     #footer{
-        height: 180px;
+        height: 185px;
     }
     .xx{
-        margin-top: 14px;
+        margin-top: 11px;
     }
     .texto1, .texto1a{
         margin-left: 3vw;
@@ -2280,3 +2280,31 @@ nav {
         width: 40vw;
     }
   }
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .button2{
+        margin-top: 30vh;
+    }
+    .xx{
+        margin-top: 5vh;
+    }
+    .logonome{
+        margin-top: -160px;
+    }
+    .navbar.test .navbar-toggler-icon {
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 2000px) {
+    .button2{
+        margin-top: -30vh;
+    }
+    .button2b, .texto1, .texto1a{
+        font-size: 2rem;
+    }
+    .texto44, .texto4, .texto44b, .texto4b{
+        font-size: 6rem;
+    }
+}
